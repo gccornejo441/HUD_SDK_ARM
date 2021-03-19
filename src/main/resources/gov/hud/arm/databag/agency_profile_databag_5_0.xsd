@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://gov.hud.arm/agency_profile_databag_5_0" targetNamespace="http://gov.hud.arm/agency_profile_databag_5_0" xmlns:tns="http://gov.hud.arm/agency_profile_databag_5_0"
+	xmlns:st="http://gov.hud.arm/arm_databag" elementFormDefault="qualified">
+	<xs:import schemaLocation="simpleTypes5.0.xsd" namespace="http://gov.hud.arm/arm_databag" />
+	<xs:element name="SubmissionData">
+		<xs:complexType>
+			<xs:all>
+				<xs:element name="AgencyProfileData" type="AgencyProfileData" minOccurs="1" maxOccurs="1" />
+				<xs:element name="Agency_Contacts" type="Agency_Contacts" />
+			</xs:all>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="AgencyProfileData">
+		<xs:all>
+			<xs:element name="Agency_EIN" type="st:employeeId" minOccurs="0" />
+			<xs:element name="Reported_Month" type="st:month" />
+			<xs:element name="Agency_DUN_Nbr" type="st:dunnBradstreetId" minOccurs="0" />
+			<xs:element name="Agency_Physical_Address1" type="st:addressLineLong" />
+			<xs:element name="Agency_Physical_Address2" type="st:addressLineLong" minOccurs="0" />
+			<xs:element name="Agency_Physical_Address3" type="st:addressLineShort" minOccurs="0" />
+			<xs:element name="Agency_Physical_Address4" type="st:addressLineShort" minOccurs="0" />
+			<xs:element name="Agency_Physical_City" type="st:city" />
+			<xs:element name="Agency_Physical_State" type="st:state" />
+			<xs:element name="Agency_Physical_Zip" type="st:zip" />
+			<xs:element name="Agency_Mailing_Address1" type="st:addressLineLong" minOccurs="0" />
+			<xs:element name="Agency_Mailing_Address2" type="st:addressLineLong" minOccurs="0" />
+			<xs:element name="Agency_Mailing_Address3" type="st:addressLineShort" minOccurs="0" />
+			<xs:element name="Agency_Mailing_Address4" type="st:addressLineShort" minOccurs="0" />
+			<xs:element name="Agency_Mailing_City" type="st:city" minOccurs="0" />
+			<xs:element name="Agency_Mailing_State" type="st:state" minOccurs="0" />
+			<xs:element name="Agency_Mailing_Zip" type="st:zip" minOccurs="0" />
+			<xs:element name="Agency_Website" type="st:url" minOccurs="0" />
+			<xs:element name="Agency_Phone_Nbr" type="st:phone" />
+			<xs:element name="Agency_Tollfree_Phone_Nbr" type="st:phone" minOccurs="0" />
+			<xs:element name="Agency_Fax_Nbr" type="st:phoneWithoutExtension" minOccurs="0" />
+			<xs:element name="Agency_Email" type="st:email" minOccurs="0" />
+			<xs:element name="Agency_Faith_Based_Ind" type="st:yesOrNo" />
+			<xs:element name="Agency_Colonias_Ind" type="st:yesOrNo" />
+			<xs:element name="Agency_Migrfarm_Worker_Ind" type="st:yesOrNo" />
+			<xs:element name="Agency_Counseling_Budget_Amount" type="st:counselingBudgetAmount" />
+			<xs:element name="Agency_Languages" >
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Language" type="st:languageId" maxOccurs="unbounded" />
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Agency_Counseling_Methods">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Counseling_Method" type="st:refId" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:all>
+	</xs:complexType>
+	<xs:complexType name="Agency_Contacts">
+		<xs:sequence>
+			<xs:element name="Agency_Contact" type="Agency_Contact" minOccurs="3" maxOccurs="3" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Agency_Contact">
+		<xs:all>
+			<xs:element name="Contact_Type" type="st:contactType" />
+			<xs:element name="Contact_Fname" type="st:name" />
+			<xs:element name="Contact_Lname" type="st:name" />
+			<xs:element name="Contact_Mname" type="st:name" minOccurs="0" />
+			<xs:element name="Contact_Title" type="st:shortRefId" />
+			<xs:element name="Contact_Address1" type="st:addressLineLong" />
+			<xs:element name="Contact_Address2" type="st:addressLineLong" minOccurs="0" />
+			<xs:element name="Contact_City" type="st:city" />
+			<xs:element name="Contact_State" type="st:state" />
+			<xs:element name="Contact_Zip" type="st:zip" />
+			<xs:element name="Contact_Phone_Nbr" type="st:phoneWithoutExtension" />
+			<xs:element name="Contact_Ext_Nbr" type="st:phoneExtension" minOccurs="0" />
+			<xs:element name="Contact_Mobile_Nbr" type="st:phoneWithoutExtension" minOccurs="0" />
+			<xs:element name="Contact_Fax_Nbr" type="st:phoneWithoutExtension" minOccurs="0" />
+			<xs:element name="Contact_Email" type="st:email" />
+		</xs:all>
+	</xs:complexType>
+</xs:schema>

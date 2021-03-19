@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://gov.hud.arm/counselor_profile_databag_5_0" targetNamespace="http://gov.hud.arm/counselor_profile_databag_5_0"
+	xmlns:st="http://gov.hud.arm/arm_databag" elementFormDefault="qualified">
+	<xs:import schemaLocation="simpleTypes5.0.xsd" namespace="http://gov.hud.arm/arm_databag" />
+	<xs:element name="SubmissionData">
+		<xs:complexType>
+			<xs:all>
+				<xs:element name="Counselor_Profiles" type="Counselor_Profiles" minOccurs="0" />
+				<xs:element name="Counselor_Training_Courses" type="Counselor_Training_Courses" minOccurs="0" />
+				<xs:element name="Counselor_Trainings" type="Counselor_Trainings" minOccurs="0" />
+			</xs:all>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="Counselor_Profiles">
+		<xs:sequence>
+			<xs:element name="Counselor_Profile" type="Counselor_Profile" minOccurs="1" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Counselor_Profile">
+		<xs:all>
+			<xs:element name="CMS_Counselor_Id" type="st:refId" />
+			<xs:element name="Counselor_Fname" type="st:name" />
+			<xs:element name="Counselor_Lname" type="st:name" />
+			<xs:element name="Counselor_Mname" type="st:name" minOccurs="0" />
+			<xs:element name="Counselor_Emp_Start_Date" type="st:date" />
+			<xs:element name="Counselor_Emp_End_Date" type="st:date" minOccurs="0" />
+			<xs:element name="Counselor_Rate" type="st:moneyField" minOccurs="0" />
+			<xs:element name="Counselor_Billing_Method" type="st:billingMethods" minOccurs="0" />
+			<xs:element name="Counselor_HUD_Id" type="st:fieldValue" minOccurs="0" />
+			<xs:element name="Counselor_SSN" type="st:ssn"/>
+			<xs:element name="Counselor_Phone" type="st:phone" minOccurs="0" />
+			<xs:element name="Counselor_Email" type="st:email" minOccurs="0" />
+			<xs:element name="Counselor_Languages" minOccurs="0" >
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Language" type="st:languageId" maxOccurs="unbounded" />
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>		
+			<xs:element name="Counselor_Service_Types" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Service_Type" type="st:refId" maxOccurs="unbounded" />
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>		
+	</xs:all>
+	</xs:complexType>
+	<xs:complexType name="Counselor_Trainings">
+		<xs:sequence>
+			<xs:element name="Counselor_Training" type="Counselor_Training" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Counselor_Training">
+		<xs:all>
+			<xs:element name="CMS_Counselor_Id" type="st:refId" />
+			<xs:element name="Counselor_Training_Cert" type="st:yesOrNo" />
+			<xs:element name="Counselor_Training_Course_Id" type="st:refId" />
+		</xs:all>
+	</xs:complexType>
+	<xs:complexType name="Counselor_Training_Courses">
+		<xs:sequence>
+			<xs:element name="Counselor_Training_Course" type="Counselor_Training_Course" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Counselor_Training_Course">
+		<xs:all>
+			<xs:element name="Counselor_Training_Course_Id" type="st:refId" />
+			<xs:element name="Counselor_Training_Title" type="st:trainingTitle" />
+			<xs:element name="Counselor_Training_Date" type="st:date" />
+			<xs:element name="Counselor_Training_Org" type="st:otherTrainingOrganization" />
+			<xs:element name="Counselor_Training_Org_Other" type="st:fieldValue" minOccurs="0" />
+			<xs:element name="Counselor_Training_Sponsor" type="st:sponsorTrainingOrganization" />
+			<xs:element name="Counselor_Training_Sponsor_Other" type="st:fieldValue" minOccurs="0" />
+			<xs:element name="Counselor_Training_Duration" type="st:sessionDuration" minOccurs="0" />
+		</xs:all>
+	</xs:complexType>
+</xs:schema>

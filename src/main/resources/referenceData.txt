@@ -1,0 +1,2604 @@
+         <referenceItemGroup>
+            <groupId>0</groupId>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>Alaska</longDesc>
+               <name>AK</name>
+               <shortDesc>AK</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>Alabama</longDesc>
+               <name>AL</name>
+               <shortDesc>AL</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>4</id>
+               <longDesc>Arkansas</longDesc>
+               <name>AR</name>
+               <shortDesc>AR</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>5</id>
+               <longDesc>American Samoa</longDesc>
+               <name>AS</name>
+               <shortDesc>AS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>6</id>
+               <longDesc>Arizona</longDesc>
+               <name>AZ</name>
+               <shortDesc>AZ</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>7</id>
+               <longDesc>California</longDesc>
+               <name>CA</name>
+               <shortDesc>CA</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>8</id>
+               <longDesc>Colorado</longDesc>
+               <name>CO</name>
+               <shortDesc>CO</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>9</id>
+               <longDesc>Connecticut</longDesc>
+               <name>CT</name>
+               <shortDesc>CT</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>10</id>
+               <longDesc>District of Columbia</longDesc>
+               <name>DC</name>
+               <shortDesc>DC</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>11</id>
+               <longDesc>Delaware</longDesc>
+               <name>DE</name>
+               <shortDesc>DE</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>12</id>
+               <longDesc>Florida</longDesc>
+               <name>FL</name>
+               <shortDesc>FL</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>13</id>
+               <longDesc>Federated States of Micronesia</longDesc>
+               <name>FM</name>
+               <shortDesc>FM</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>14</id>
+               <longDesc>Georgia</longDesc>
+               <name>GA</name>
+               <shortDesc>GA</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>15</id>
+               <longDesc>Guam</longDesc>
+               <name>GU</name>
+               <shortDesc>GU</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>16</id>
+               <longDesc>Hawaii</longDesc>
+               <name>HI</name>
+               <shortDesc>HI</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>17</id>
+               <longDesc>Iowa</longDesc>
+               <name>IA</name>
+               <shortDesc>IA</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>18</id>
+               <longDesc>Idaho</longDesc>
+               <name>ID</name>
+               <shortDesc>ID</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>19</id>
+               <longDesc>Illinois</longDesc>
+               <name>IL</name>
+               <shortDesc>IL</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>20</id>
+               <longDesc>Indiana</longDesc>
+               <name>IN</name>
+               <shortDesc>IN</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>21</id>
+               <longDesc>Kansas</longDesc>
+               <name>KS</name>
+               <shortDesc>KS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>22</id>
+               <longDesc>Kentucky</longDesc>
+               <name>KY</name>
+               <shortDesc>KY</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>23</id>
+               <longDesc>Louisiana</longDesc>
+               <name>LA</name>
+               <shortDesc>LA</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>24</id>
+               <longDesc>Massachusetts</longDesc>
+               <name>MA</name>
+               <shortDesc>MA</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>25</id>
+               <longDesc>Maryland</longDesc>
+               <name>MD</name>
+               <shortDesc>MD</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>26</id>
+               <longDesc>Maine</longDesc>
+               <name>ME</name>
+               <shortDesc>ME</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>27</id>
+               <longDesc>Marshall Islands</longDesc>
+               <name>MH</name>
+               <shortDesc>MH</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>28</id>
+               <longDesc>Michigan</longDesc>
+               <name>MI</name>
+               <shortDesc>MI</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>29</id>
+               <longDesc>Minnesota</longDesc>
+               <name>MN</name>
+               <shortDesc>MN</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>30</id>
+               <longDesc>Missouri</longDesc>
+               <name>MO</name>
+               <shortDesc>MO</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>31</id>
+               <longDesc>Northern Mariana Islands</longDesc>
+               <name>MP</name>
+               <shortDesc>MP</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>32</id>
+               <longDesc>Mississippi</longDesc>
+               <name>MS</name>
+               <shortDesc>MS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>33</id>
+               <longDesc>Montana</longDesc>
+               <name>MT</name>
+               <shortDesc>MT</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>34</id>
+               <longDesc>North Carolina</longDesc>
+               <name>NC</name>
+               <shortDesc>NC</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>35</id>
+               <longDesc>North Dakota</longDesc>
+               <name>ND</name>
+               <shortDesc>ND</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>36</id>
+               <longDesc>Nebraska</longDesc>
+               <name>NE</name>
+               <shortDesc>NE</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>37</id>
+               <longDesc>New Hampshire</longDesc>
+               <name>NH</name>
+               <shortDesc>NH</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>38</id>
+               <longDesc>New Jersey</longDesc>
+               <name>NJ</name>
+               <shortDesc>NJ</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>39</id>
+               <longDesc>New Mexico</longDesc>
+               <name>NM</name>
+               <shortDesc>NM</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>40</id>
+               <longDesc>Nevada</longDesc>
+               <name>NV</name>
+               <shortDesc>NV</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>41</id>
+               <longDesc>New York</longDesc>
+               <name>NY</name>
+               <shortDesc>NY</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>42</id>
+               <longDesc>Ohio</longDesc>
+               <name>OH</name>
+               <shortDesc>OH</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>43</id>
+               <longDesc>Oklahoma</longDesc>
+               <name>OK</name>
+               <shortDesc>OK</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>44</id>
+               <longDesc>Oregon</longDesc>
+               <name>OR</name>
+               <shortDesc>OR</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>45</id>
+               <longDesc>Pennsylvania</longDesc>
+               <name>PA</name>
+               <shortDesc>PA</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>46</id>
+               <longDesc>Puerto Rico</longDesc>
+               <name>PR</name>
+               <shortDesc>PR</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>47</id>
+               <longDesc>Palau</longDesc>
+               <name>PW</name>
+               <shortDesc>PW</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>48</id>
+               <longDesc>Rhode Island</longDesc>
+               <name>RI</name>
+               <shortDesc>RI</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>49</id>
+               <longDesc>South Carolina</longDesc>
+               <name>SC</name>
+               <shortDesc>SC</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>50</id>
+               <longDesc>South Dakota</longDesc>
+               <name>SD</name>
+               <shortDesc>SD</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>51</id>
+               <longDesc>Tennessee</longDesc>
+               <name>TN</name>
+               <shortDesc>TN</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>52</id>
+               <longDesc>Texas</longDesc>
+               <name>TX</name>
+               <shortDesc>TX</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>53</id>
+               <longDesc>Utah</longDesc>
+               <name>UT</name>
+               <shortDesc>UT</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>54</id>
+               <longDesc>Virginia</longDesc>
+               <name>VA</name>
+               <shortDesc>VA</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>55</id>
+               <longDesc>Virgin Islands</longDesc>
+               <name>VI</name>
+               <shortDesc>VI</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>56</id>
+               <longDesc>Vermont</longDesc>
+               <name>VT</name>
+               <shortDesc>VT</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>57</id>
+               <longDesc>Washington</longDesc>
+               <name>WA</name>
+               <shortDesc>WA</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>58</id>
+               <longDesc>Wisconsin</longDesc>
+               <name>WI</name>
+               <shortDesc>WI</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>59</id>
+               <longDesc>West Virginia</longDesc>
+               <name>WV</name>
+               <shortDesc>WV</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>60</id>
+               <longDesc>Wyoming</longDesc>
+               <name>WY</name>
+               <shortDesc>WY</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>61</id>
+               <longDesc>Not Selected</longDesc>
+               <name>NA</name>
+               <shortDesc>NA</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>1</groupId>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>Arabic</longDesc>
+               <name>ARA</name>
+               <shortDesc>ARA</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>Cambodian</longDesc>
+               <name>CAM</name>
+               <shortDesc>CAM</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>4</id>
+               <longDesc>Cantonese</longDesc>
+               <name>CAN</name>
+               <shortDesc>CAN</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>5</id>
+               <longDesc>Chinese Mandarin</longDesc>
+               <name>CHI</name>
+               <shortDesc>CHI</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>6</id>
+               <longDesc>Czech</longDesc>
+               <name>CZE</name>
+               <shortDesc>CZE</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>7</id>
+               <longDesc>French</longDesc>
+               <name>FRE</name>
+               <shortDesc>FRE</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>8</id>
+               <longDesc>Hindi</longDesc>
+               <name>HIN</name>
+               <shortDesc>HIN</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>9</id>
+               <longDesc>Indonesian</longDesc>
+               <name>IND</name>
+               <shortDesc>IND</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>10</id>
+               <longDesc>Korean</longDesc>
+               <name>KOR</name>
+               <shortDesc>KOR</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>11</id>
+               <longDesc>Polish</longDesc>
+               <name>POL</name>
+               <shortDesc>POL</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>12</id>
+               <longDesc>Portuguese</longDesc>
+               <name>POR</name>
+               <shortDesc>POR</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>13</id>
+               <longDesc>Russian</longDesc>
+               <name>RUS</name>
+               <shortDesc>RUS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>16</id>
+               <longDesc>Swahili</longDesc>
+               <name>SWA</name>
+               <shortDesc>SWA</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>17</id>
+               <longDesc>Turkish</longDesc>
+               <name>TUR</name>
+               <shortDesc>TUR</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>18</id>
+               <longDesc>Vietnamese</longDesc>
+               <name>VIE</name>
+               <shortDesc>VIE</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>19</id>
+               <longDesc>English</longDesc>
+               <name>ENG</name>
+               <shortDesc>ENG</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>20</id>
+               <longDesc>Spanish</longDesc>
+               <name>SPA</name>
+               <shortDesc>SPA</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>21</id>
+               <longDesc>Farsi</longDesc>
+               <name>FAR</name>
+               <shortDesc>FAR</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>22</id>
+               <longDesc>Ukrainian</longDesc>
+               <name>UKR</name>
+               <shortDesc>UKR</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>23</id>
+               <longDesc>ASL</longDesc>
+               <name>ASL</name>
+               <shortDesc>ASL</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>24</id>
+               <longDesc>Hmong</longDesc>
+               <name>HMO</name>
+               <shortDesc>HMO</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>25</id>
+               <longDesc>Creole</longDesc>
+               <name>CRE</name>
+               <shortDesc>CRE</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>26</id>
+               <longDesc>Other</longDesc>
+               <name>OTH</name>
+               <shortDesc>OTH</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>27</id>
+               <longDesc>German</longDesc>
+               <name>GER</name>
+               <shortDesc>GER</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>28</id>
+               <longDesc>Italian</longDesc>
+               <name>ITA</name>
+               <shortDesc>ITA</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>3</groupId>
+            <referenceItem>
+               <id>1</id>
+               <longDesc>Unknown</longDesc>
+               <name>Unknown</name>
+               <shortDesc>Unknown</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>American Indian Alaskan Native</longDesc>
+               <name>American Indian Alaskan Native</name>
+               <shortDesc>American Indian Alaskan Native</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>Asian</longDesc>
+               <name>Asian</name>
+               <shortDesc>Asian</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>4</id>
+               <longDesc>Black or African American</longDesc>
+               <name>Black or African American</name>
+               <shortDesc>Black or African American</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>5</id>
+               <longDesc>Native Hawaiian or Other Pacific Islander</longDesc>
+               <name>Native Hawaiian or Other Pacific Islander</name>
+               <shortDesc>Native Hawaiian or Other Pacific Islander</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>6</id>
+               <longDesc>White</longDesc>
+               <name>White</name>
+               <shortDesc>White</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>7</id>
+               <longDesc>American Indian or Alaska Native and White</longDesc>
+               <name>American Indian or Alaska Native and White</name>
+               <shortDesc>American Indian or Alaska Native and White</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>8</id>
+               <longDesc>Asian and White</longDesc>
+               <name>Asian and White</name>
+               <shortDesc>Asian and White</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>9</id>
+               <longDesc>Black or African American and White</longDesc>
+               <name>Black or African American and White</name>
+               <shortDesc>Black or African American and White</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>10</id>
+               <longDesc>American Indian or Alaska Native and Black or African American</longDesc>
+               <name>American Indian or Alaska Native and Black or African American</name>
+               <shortDesc>American Indian or Alaska Native and Black or African American</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>11</id>
+               <longDesc>Other multiple race</longDesc>
+               <name>Other multiple race</name>
+               <shortDesc>Other multiple race</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>12</id>
+               <longDesc>Choose not to respond</longDesc>
+               <name>Choose not to respond</name>
+               <shortDesc>Choose not to respond</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>4</groupId>
+            <referenceItem>
+               <id>1</id>
+               <longDesc>Unknown</longDesc>
+               <name>Unknown</name>
+               <shortDesc>Unknown</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>Hispanic</longDesc>
+               <name>Hispanic</name>
+               <shortDesc>Hispanic</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>Not Hispanic</longDesc>
+               <name>Not Hispanic</name>
+               <shortDesc>Not Hispanic</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>4</id>
+               <longDesc>Choose not to respond</longDesc>
+               <name>Choose not to respond</name>
+               <shortDesc>Choose not to respond</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>5</groupId>
+            <referenceItem>
+               <id>1</id>
+               <longDesc>N/A</longDesc>
+               <name>N/A</name>
+               <shortDesc>N/A</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>30 - year fixed</longDesc>
+               <name>30 - year fixed</name>
+               <shortDesc>30 - year fixed</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>20 - year fixed</longDesc>
+               <name>20 - year fixed</name>
+               <shortDesc>20 - year fixed</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>4</id>
+               <longDesc>15 - year fixed</longDesc>
+               <name>15 - year fixed</name>
+               <shortDesc>15 - year fixed</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>5</id>
+               <longDesc>10 - year fixed</longDesc>
+               <name>10 - year fixed</name>
+               <shortDesc>10 - year fixed</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>6</id>
+               <longDesc>1 - year ARM</longDesc>
+               <name>1 - year ARM</name>
+               <shortDesc>1 - year ARM</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>7</id>
+               <longDesc>3 - year ARM</longDesc>
+               <name>3 - year ARM</name>
+               <shortDesc>3 - year ARM</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>8</id>
+               <longDesc>5 - year ARM</longDesc>
+               <name>5 - year ARM</name>
+               <shortDesc>5 - year ARM</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>9</id>
+               <longDesc>7 - year ARM</longDesc>
+               <name>7 - year ARM</name>
+               <shortDesc>7 - year ARM</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>10</id>
+               <longDesc>10 - year ARM</longDesc>
+               <name>10 - year ARM</name>
+               <shortDesc>10 - year ARM</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>11</id>
+               <longDesc>Interest Only</longDesc>
+               <name>Interest Only</name>
+               <shortDesc>Interest Only</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>12</id>
+               <longDesc>40 - year fixed</longDesc>
+               <name>40 - year fixed</name>
+               <shortDesc>40 - year fixed</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>13</id>
+               <longDesc>2 - year ARM</longDesc>
+               <name>2 - year ARM</name>
+               <shortDesc>2 - year ARM</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>6</groupId>
+            <referenceItem>
+               <id>1</id>
+               <longDesc>Unknown</longDesc>
+               <name>Unknown</name>
+               <shortDesc>Unknown</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>Married</longDesc>
+               <name>Married</name>
+               <shortDesc>Married</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>Single</longDesc>
+               <name>Single</name>
+               <shortDesc>Single</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>4</id>
+               <longDesc>Divorced</longDesc>
+               <name>Divorced</name>
+               <shortDesc>Divorced</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>5</id>
+               <longDesc>Separated</longDesc>
+               <name>Separated</name>
+               <shortDesc>Separated</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>6</id>
+               <longDesc>Widowed</longDesc>
+               <name>Widowed</name>
+               <shortDesc>Widowed</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>7</id>
+               <longDesc>Choose not to respond</longDesc>
+               <name>Choose not to respond</name>
+               <shortDesc>Choose not to respond</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>7</groupId>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>Agency Senior Executive</longDesc>
+               <name>Agency Senior Executive</name>
+               <shortDesc>Agency Senior Executive</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>Agency Manager</longDesc>
+               <name>Agency Manager</name>
+               <shortDesc>Agency Manager</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>11</id>
+               <longDesc>Agency Contact for HUD Use</longDesc>
+               <name>Agency Contact for HUD Use</name>
+               <shortDesc>Agency Contact for HUD Use</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>10</groupId>
+            <referenceItem>
+               <id>4</id>
+               <longDesc>HCO</longDesc>
+               <name>HCO</name>
+               <shortDesc>HCO</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>5</id>
+               <longDesc>Budget Your Dream</longDesc>
+               <name>Budget Your Dream</name>
+               <shortDesc>Budget Your Dream</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>6</id>
+               <longDesc>HUD</longDesc>
+               <name>HUD</name>
+               <shortDesc>HUD</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>7</id>
+               <longDesc>CounselorMax</longDesc>
+               <name>CounselorMax</name>
+               <shortDesc>CounselorMax</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>9</id>
+               <longDesc>Paragon</longDesc>
+               <name>Paragon</name>
+               <shortDesc>Paragon</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>10</id>
+               <longDesc>DMS Professional Suite</longDesc>
+               <name>DMS Professional Suite</name>
+               <shortDesc>DMS Professional Suite</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>11</id>
+               <longDesc>DebtPlus</longDesc>
+               <name>DebtPlus</name>
+               <shortDesc>DebtPlus</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>13</id>
+               <longDesc>CreditMaster</longDesc>
+               <name>CreditMaster</name>
+               <shortDesc>CreditMaster</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>14</id>
+               <longDesc>COMS</longDesc>
+               <name>COMS</name>
+               <shortDesc>COMS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>15</id>
+               <longDesc>CCARM</longDesc>
+               <name>CCARM</name>
+               <shortDesc>CCARM</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>16</id>
+               <longDesc>FMS</longDesc>
+               <name>FMS</name>
+               <shortDesc>FMS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>17</id>
+               <longDesc>Counsel Track</longDesc>
+               <name>Counsel Track</name>
+               <shortDesc>Counsel Track</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>20</id>
+               <longDesc>Adsystech</longDesc>
+               <name>Adsystech</name>
+               <shortDesc>Adsystech</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>21</id>
+               <longDesc>Intelligrants</longDesc>
+               <name>Intelligrants</name>
+               <shortDesc>Intelligrants</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>24</id>
+               <longDesc>CredAbility</longDesc>
+               <name>CredAbility</name>
+               <shortDesc>CredAbility</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>25</id>
+               <longDesc>CCHR</longDesc>
+               <name>CCHR</name>
+               <shortDesc>CCHR</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>26</id>
+               <longDesc>CCOA</longDesc>
+               <name>CCOA</name>
+               <shortDesc>CCOA</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>27</id>
+               <longDesc>FACSPRO</longDesc>
+               <name>FACSPRO</name>
+               <shortDesc>FACSPRO</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>33</id>
+               <longDesc>GRULCMS</longDesc>
+               <name>GRULCMS</name>
+               <shortDesc>GRULCMS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>34</id>
+               <longDesc>HANDS</longDesc>
+               <name>HANDS</name>
+               <shortDesc>HANDS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>35</id>
+               <longDesc>HCDMS</longDesc>
+               <name>HCDMS</name>
+               <shortDesc>HCDMS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>37</id>
+               <longDesc>HRS</longDesc>
+               <name>HRS</name>
+               <shortDesc>HRS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>38</id>
+               <longDesc>HATS</longDesc>
+               <name>HATS</name>
+               <shortDesc>HATS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>39</id>
+               <longDesc>MMS</longDesc>
+               <name>MMS</name>
+               <shortDesc>MMS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>40</id>
+               <longDesc>IHFA-HS</longDesc>
+               <name>IHFA-HS</name>
+               <shortDesc>IHFA-HS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>41</id>
+               <longDesc>Kemps Prime</longDesc>
+               <name>Kemps Prime</name>
+               <shortDesc>Kemps Prime</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>42</id>
+               <longDesc>NACA-Lynx</longDesc>
+               <name>NACA-Lynx</name>
+               <shortDesc>NACA-Lynx</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>43</id>
+               <longDesc>Octopia</longDesc>
+               <name>Octopia</name>
+               <shortDesc>Octopia</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>44</id>
+               <longDesc>Outcome Tracker</longDesc>
+               <name>Outcome Tracker</name>
+               <shortDesc>Outcome Tracker</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>45</id>
+               <longDesc>Pika</longDesc>
+               <name>Pika</name>
+               <shortDesc>Pika</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>46</id>
+               <longDesc>PS Technologies</longDesc>
+               <name>PS Technologies</name>
+               <shortDesc>PS Technologies</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>47</id>
+               <longDesc>THO</longDesc>
+               <name>THO</name>
+               <shortDesc>THO</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>50</id>
+               <longDesc>MSDCCM</longDesc>
+               <name>MSDCCM</name>
+               <shortDesc>MSDCCM</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>52</id>
+               <longDesc>DebtHelper</longDesc>
+               <name>DebtHelper</name>
+               <shortDesc>DebtHelper</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>55</id>
+               <longDesc>RxOffice</longDesc>
+               <name>RxOffice</name>
+               <shortDesc>RxOffice</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>56</id>
+               <longDesc>LIHSDP</longDesc>
+               <name>LIHSDP</name>
+               <shortDesc>LIHSDP</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>57</id>
+               <longDesc>LegalServerCMS</longDesc>
+               <name>LegalServerCMS</name>
+               <shortDesc>LegalServerCMS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>59</id>
+               <longDesc>PraxisCS</longDesc>
+               <name>PraxisCS</name>
+               <shortDesc>PraxisCS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>60</id>
+               <longDesc>BurkeDD</longDesc>
+               <name>BurkeDD</name>
+               <shortDesc>BurkeDD</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>63</id>
+               <longDesc>empowOR</longDesc>
+               <name>empowOR</name>
+               <shortDesc>empowOR</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>65</id>
+               <longDesc>Alliance HCS</longDesc>
+               <name>Alliance HCS</name>
+               <shortDesc>Alliance HCS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>66</id>
+               <longDesc>HomewardBound</longDesc>
+               <name>HomewardBound</name>
+               <shortDesc>HomewardBound</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>67</id>
+               <longDesc>Springboard</longDesc>
+               <name>Springboard</name>
+               <shortDesc>Springboard</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>70</id>
+               <longDesc>MPact Pro</longDesc>
+               <name>MPact Pro</name>
+               <shortDesc>MPact Pro</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>71</id>
+               <longDesc>CAP60</longDesc>
+               <name>CAP60</name>
+               <shortDesc>CAP60</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>73</id>
+               <longDesc>ICM</longDesc>
+               <name>ICM</name>
+               <shortDesc>ICM</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>74</id>
+               <longDesc>NEWORG</longDesc>
+               <name>NEWORG</name>
+               <shortDesc>NEWORG</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>75</id>
+               <longDesc>INCS</longDesc>
+               <name>INCS</name>
+               <shortDesc>INCS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>76</id>
+               <longDesc>PCAP</longDesc>
+               <name>PCAP</name>
+               <shortDesc>PCAP</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>77</id>
+               <longDesc>HomEdge</longDesc>
+               <name>HomEdge</name>
+               <shortDesc>HomEdge</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>78</id>
+               <longDesc>HomeKeeper</longDesc>
+               <name>HomeKeeper</name>
+               <shortDesc>HomeKeeper</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>79</id>
+               <longDesc>CaseWorthy</longDesc>
+               <name>CaseWorthy</name>
+               <shortDesc>CaseWorthy</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>80</id>
+               <longDesc>HPF CMS</longDesc>
+               <name>HPF CMS</name>
+               <shortDesc>HPF CMS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>81</id>
+               <longDesc>Evolutionary</longDesc>
+               <name>Evolutionary</name>
+               <shortDesc>Evolutionary</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>82</id>
+               <longDesc>Apricot</longDesc>
+               <name>Apricot</name>
+               <shortDesc>Apricot</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>83</id>
+               <longDesc>CRMNWSHC</longDesc>
+               <name>CRMNWSHC</name>
+               <shortDesc>CRMNWSHC</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>84</id>
+               <longDesc>Housingetc</longDesc>
+               <name>Housingetc</name>
+               <shortDesc>Housingetc</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>85</id>
+               <longDesc>SCMS</longDesc>
+               <name>SCMS</name>
+               <shortDesc>SCMS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>86</id>
+               <longDesc>ARM365</longDesc>
+               <name>ARM365</name>
+               <shortDesc>ARM365</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>87</id>
+               <longDesc>NHSC_Salesforce</longDesc>
+               <name>NHSC_Salesforce</name>
+               <shortDesc>NHSC_Salesforce</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>88</id>
+               <longDesc>Launchpad</longDesc>
+               <name>Launchpad</name>
+               <shortDesc>Launchpad</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>11</groupId>
+            <referenceItem>
+               <id>1</id>
+               <longDesc>Ongoing</longDesc>
+               <name>ONGN</name>
+               <shortDesc>ONGN</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>Completed</longDesc>
+               <name>CMPD</name>
+               <shortDesc>CMPD</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>Dropped Out</longDesc>
+               <name>DRPO</name>
+               <shortDesc>DRPO</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>4</id>
+               <longDesc>Referred</longDesc>
+               <name>REFE</name>
+               <shortDesc>REFE</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>5</id>
+               <longDesc>No Further Contact</longDesc>
+               <name>NFCT</name>
+               <shortDesc>NFCT</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>6</id>
+               <longDesc>Other</longDesc>
+               <name>OTHE</name>
+               <shortDesc>OTHE</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>7</id>
+               <longDesc>N/A</longDesc>
+               <name>N/A</name>
+               <shortDesc>N/A</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>12</groupId>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>Face to Face</longDesc>
+               <name>Face to Face</name>
+               <shortDesc>Face to Face</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>Phone</longDesc>
+               <name>Phone</name>
+               <shortDesc>Phone</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>4</id>
+               <longDesc>Internet</longDesc>
+               <name>Internet</name>
+               <shortDesc>Internet</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>5</id>
+               <longDesc>Group</longDesc>
+               <name>Group</name>
+               <shortDesc>Group</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>6</id>
+               <longDesc>Other</longDesc>
+               <name>Other</name>
+               <shortDesc>Other</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>7</id>
+               <longDesc>N/A</longDesc>
+               <name>N/A</name>
+               <shortDesc>N/A</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>13</groupId>
+            <referenceItem>
+               <id>1</id>
+               <longDesc>Unknown</longDesc>
+               <name>UNKN</name>
+               <shortDesc>UNKN</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>Elementary</longDesc>
+               <name>ELEM</name>
+               <shortDesc>ELEM</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>Junior High School</longDesc>
+               <name>JRHS</name>
+               <shortDesc>JRHS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>4</id>
+               <longDesc>High School</longDesc>
+               <name>HHSL</name>
+               <shortDesc>HHSL</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>5</id>
+               <longDesc>Junior College</longDesc>
+               <name>JRCO</name>
+               <shortDesc>JRCO</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>6</id>
+               <longDesc>University</longDesc>
+               <name>UNIV</name>
+               <shortDesc>UNIV</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>7</id>
+               <longDesc>Graduate School</longDesc>
+               <name>GDSL</name>
+               <shortDesc>GDSL</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>8</id>
+               <longDesc>Other</longDesc>
+               <name>OTHE</name>
+               <shortDesc>OTHE</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>14</groupId>
+            <referenceItem>
+               <id>6</id>
+               <longDesc>N/A</longDesc>
+               <name>NA</name>
+               <shortDesc>NA</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>8</id>
+               <longDesc>FHA</longDesc>
+               <name>FHA</name>
+               <shortDesc>FHA</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>9</id>
+               <longDesc>VA</longDesc>
+               <name>VA</name>
+               <shortDesc>VA</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>10</id>
+               <longDesc>Conventional</longDesc>
+               <name>CON</name>
+               <shortDesc>CON</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>11</id>
+               <longDesc>USDA</longDesc>
+               <name>USD</name>
+               <shortDesc>USD</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>15</groupId>
+            <referenceItem>
+               <id>10</id>
+               <longDesc>Financial literacy, including home affordability, budgeting and understanding use of credit</longDesc>
+               <name>FINL2015</name>
+               <shortDesc>FINL2015</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>11</id>
+               <longDesc>Predatory lending, loan scam or other fraud prevention</longDesc>
+               <name>PDLD2015</name>
+               <shortDesc>PDLD2015</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>12</id>
+               <longDesc>Fair Housing</longDesc>
+               <name>FAHO2015</name>
+               <shortDesc>FAHO2015</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>13</id>
+               <longDesc>Homelessness prevention</longDesc>
+               <name>HMPV2015</name>
+               <shortDesc>HMPV2015</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>14</id>
+               <longDesc>Rental</longDesc>
+               <name>RENT2015</name>
+               <shortDesc>RENT2015</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>15</id>
+               <longDesc>Pre-purchase homebuyer education</longDesc>
+               <name>PPHE2015</name>
+               <shortDesc>PPHE2015</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>16</id>
+               <longDesc>Non-Delinquency Post-Purchase Home Maintenance and/or Financial Management for Homeowners</longDesc>
+               <name>HMFM2015</name>
+               <shortDesc>HMFM2015</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>17</id>
+               <longDesc>Resolving or Preventing Mortgage Delinquency</longDesc>
+               <name>RPMD2015</name>
+               <shortDesc>RPMD2015</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>18</id>
+               <longDesc>Other</longDesc>
+               <name>OTHE2015</name>
+               <shortDesc>OTHE2015</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>16</groupId>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>Obtained a Home Equity Conversion Mortgage (HECM)</longDesc>
+               <name>HOBT</name>
+               <shortDesc>HOBT</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>Counseled on HECM; decided not to obtain mortgage</longDesc>
+               <name>HCNM</name>
+               <shortDesc>HCNM</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>4</id>
+               <longDesc>Obtained a non-FHA reverse mortgage</longDesc>
+               <name>ONRM</name>
+               <shortDesc>ONRM</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>5</id>
+               <longDesc>Received home equity or home improvement loan or other home repair assistance</longDesc>
+               <name>HELO</name>
+               <shortDesc>HELO</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>6</id>
+               <longDesc>Received consumer loan (unsecured)</longDesc>
+               <name>CNLO</name>
+               <shortDesc>CNLO</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>7</id>
+               <longDesc>Mortgage refinanced</longDesc>
+               <name>REFI</name>
+               <shortDesc>REFI</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>8</id>
+               <longDesc>Counseled and referred to other social service agency</longDesc>
+               <name>ROSA</name>
+               <shortDesc>ROSA</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>9</id>
+               <longDesc>Sold house/chose alternative housing solution</longDesc>
+               <name>SOLD</name>
+               <shortDesc>SOLD</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>10</id>
+               <longDesc>Completed financial management/budget counseling</longDesc>
+               <name>BUDC</name>
+               <shortDesc>BUDC</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>11</id>
+               <longDesc>Completed home maintenance counseling</longDesc>
+               <name>HMCL</name>
+               <shortDesc>HMCL</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>12</id>
+               <longDesc>Counseled and utilities brought current</longDesc>
+               <name>UTBC</name>
+               <shortDesc>UTBC</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>13</id>
+               <longDesc>Counseled and referred for legal assistance</longDesc>
+               <name>RLAS</name>
+               <shortDesc>RLAS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>14</id>
+               <longDesc>Currently receiving counseling</longDesc>
+               <name>RECL</name>
+               <shortDesc>RECL</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>15</id>
+               <longDesc>Withdrew from counseling</longDesc>
+               <name>WITH</name>
+               <shortDesc>WITH</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>16</id>
+               <longDesc>Other</longDesc>
+               <name>OTHE</name>
+               <shortDesc>OTHE</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>17</id>
+               <longDesc>N/A</longDesc>
+               <name>NOTA</name>
+               <shortDesc>NOTA</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>17</groupId>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>Occupied emergency shelter</longDesc>
+               <name>EMSH</name>
+               <shortDesc>EMSH</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>Occupied transitional housing</longDesc>
+               <name>TNLH</name>
+               <shortDesc>TNLH</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>4</id>
+               <longDesc>Occupied permanent housing with rental assistance</longDesc>
+               <name>PHWA</name>
+               <shortDesc>PHWA</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>5</id>
+               <longDesc>Occupied permanent housing without rental assistance</longDesc>
+               <name>PHOA</name>
+               <shortDesc>PHOA</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>6</id>
+               <longDesc>Counseled Referred to other social service agency</longDesc>
+               <name>ROSS</name>
+               <shortDesc>ROSS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>7</id>
+               <longDesc>Remained homeless</longDesc>
+               <name>RHLE</name>
+               <shortDesc>RHLE</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>8</id>
+               <longDesc>Currently receiving counseling</longDesc>
+               <name>RECL</name>
+               <shortDesc>RECL</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>9</id>
+               <longDesc>Withdrew from counseling</longDesc>
+               <name>WITH</name>
+               <shortDesc>WITH</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>10</id>
+               <longDesc>Other</longDesc>
+               <name>OTHE</name>
+               <shortDesc>OTHE</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>11</id>
+               <longDesc>N/A</longDesc>
+               <name>NOTA</name>
+               <shortDesc>NOTA</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>18</groupId>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>Rental Voucher</longDesc>
+               <name>RVR</name>
+               <shortDesc>RVR</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>Place Based Rental Assistance</longDesc>
+               <name>PBR</name>
+               <shortDesc>PBR</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>4</id>
+               <longDesc>Home Ownership Voucher</longDesc>
+               <name>HOV</name>
+               <shortDesc>HOV</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>5</id>
+               <longDesc>Purchase REO Property</longDesc>
+               <name>REO</name>
+               <shortDesc>REO</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>6</id>
+               <longDesc>Down Payment Assistance</longDesc>
+               <name>DPA</name>
+               <shortDesc>DPA</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>7</id>
+               <longDesc>Other HUD Program</longDesc>
+               <name>OHP</name>
+               <shortDesc>OHP</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>8</id>
+               <longDesc>Not Applicable</longDesc>
+               <name>NA</name>
+               <shortDesc>NA</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>19</groupId>
+            <referenceItem>
+               <id>1</id>
+               <longDesc>MMMSA</longDesc>
+               <name>MMMS</name>
+               <shortDesc>MMMS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>Comprehensive</longDesc>
+               <name>COMP</name>
+               <shortDesc>COMP</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>Colonias</longDesc>
+               <name>COLO</name>
+               <shortDesc>COLO</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>4</id>
+               <longDesc>HECM</longDesc>
+               <name>HECM</name>
+               <shortDesc>HECM</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>5</id>
+               <longDesc>S8</longDesc>
+               <name>S8</name>
+               <shortDesc>S8</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>6</id>
+               <longDesc>Predatory Lending</longDesc>
+               <name>PDLD</name>
+               <shortDesc>PDLD</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>7</id>
+               <longDesc>N/A</longDesc>
+               <name>NOTA</name>
+               <shortDesc>NOTA</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>20</groupId>
+            <referenceItem>
+               <id>7</id>
+               <longDesc>&lt; 30% of Area Median Income (AMI)</longDesc>
+               <name>LT302015</name>
+               <shortDesc>LT302015</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>8</id>
+               <longDesc>30 - 49% of AMI</longDesc>
+               <name>B3492015</name>
+               <shortDesc>B3492015</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>9</id>
+               <longDesc>50 - 79% of AMI</longDesc>
+               <name>B5792015</name>
+               <shortDesc>B5792015</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>10</id>
+               <longDesc>80 - 100% of AMI</longDesc>
+               <name>B8102015</name>
+               <shortDesc>B8102015</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>11</id>
+               <longDesc>> 100% AMI</longDesc>
+               <name>G1002015</name>
+               <shortDesc>G1002015</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>12</id>
+               <longDesc>Chose not to respond</longDesc>
+               <name>NORP2015</name>
+               <shortDesc>NORP2015</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>21</groupId>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>Brought mortgage current</longDesc>
+               <name>MBCT</name>
+               <shortDesc>MBCT</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>Mortgage refinanced</longDesc>
+               <name>REFI</name>
+               <shortDesc>REFI</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>4</id>
+               <longDesc>Mortgage modified</longDesc>
+               <name>MTMO</name>
+               <shortDesc>MTMO</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>5</id>
+               <longDesc>Received second mortgage</longDesc>
+               <name>SEMT</name>
+               <shortDesc>SEMT</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>6</id>
+               <longDesc>Initiated forbearance agreement/repayment plan</longDesc>
+               <name>REPA</name>
+               <shortDesc>REPA</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>7</id>
+               <longDesc>Executed a deed-in-lieu</longDesc>
+               <name>EDIL</name>
+               <shortDesc>EDIL</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>8</id>
+               <longDesc>Sold property/chose alternative housing solution</longDesc>
+               <name>SOLD</name>
+               <shortDesc>SOLD</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>9</id>
+               <longDesc>Pre-forclosure sale</longDesc>
+               <name>PREF</name>
+               <shortDesc>PREF</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>10</id>
+               <longDesc>Mortgage foreclosed</longDesc>
+               <name>FORE</name>
+               <shortDesc>FORE</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>11</id>
+               <longDesc>Counseled and referred to another social service or emergency assistance agency</longDesc>
+               <name>RESS</name>
+               <shortDesc>RESS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>12</id>
+               <longDesc>Obtained partial claim loan from FHA lender</longDesc>
+               <name>PCFH</name>
+               <shortDesc>PCFH</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>13</id>
+               <longDesc>Bankruptcy</longDesc>
+               <name>BANK</name>
+               <shortDesc>BANK</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>14</id>
+               <longDesc>Entered debt management plan</longDesc>
+               <name>DEBT</name>
+               <shortDesc>DEBT</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>15</id>
+               <longDesc>Counseled and referred for legal assistance</longDesc>
+               <name>RTLS</name>
+               <shortDesc>RTLS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>16</id>
+               <longDesc>Currently receiving foreclosure prevention/budget counseling</longDesc>
+               <name>PREV</name>
+               <shortDesc>PREV</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>17</id>
+               <longDesc>Withdrew from counseling</longDesc>
+               <name>WITH</name>
+               <shortDesc>WITH</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>18</id>
+               <longDesc>Other</longDesc>
+               <name>OTHE</name>
+               <shortDesc>OTHE</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>19</id>
+               <longDesc>N/A</longDesc>
+               <name>NOTA</name>
+               <shortDesc>NOTA</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>22</groupId>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>Purchased housing</longDesc>
+               <name>PURC</name>
+               <shortDesc>PURC</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>Client will be mortgage ready within 90 days</longDesc>
+               <name>MRWN</name>
+               <shortDesc>MRWN</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>4</id>
+               <longDesc>Client will be Mortgage Ready after 90 Days; entered debt management plan or some other type of long-term financial plan to prepare for homeownership</longDesc>
+               <name>MRAN</name>
+               <shortDesc>MRAN</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>5</id>
+               <longDesc>Receiving long term pre-purchase counseling</longDesc>
+               <name>LONG</name>
+               <shortDesc>LONG</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>6</id>
+               <longDesc>Entered lease purchase program</longDesc>
+               <name>LEAS</name>
+               <shortDesc>LEAS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>7</id>
+               <longDesc>Decided Not to purchase housing; no further effort to prepare needed</longDesc>
+               <name>NOPR</name>
+               <shortDesc>NOPR</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>8</id>
+               <longDesc>Withdrew from counseling</longDesc>
+               <name>WITH</name>
+               <shortDesc>WITH</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>9</id>
+               <longDesc>Other</longDesc>
+               <name>OTHE</name>
+               <shortDesc>OTHE</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>10</id>
+               <longDesc>N/A</longDesc>
+               <name>NOTA</name>
+               <shortDesc>NOTA</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>23</groupId>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>HUD Outreach</longDesc>
+               <name>HUDO</name>
+               <shortDesc>HUDO</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>Agency Outreach</longDesc>
+               <name>AGCO</name>
+               <shortDesc>AGCO</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>4</id>
+               <longDesc>Another Person</longDesc>
+               <name>PERS</name>
+               <shortDesc>PERS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>5</id>
+               <longDesc>Lender</longDesc>
+               <name>LEND</name>
+               <shortDesc>LEND</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>6</id>
+               <longDesc>Another Agency</longDesc>
+               <name>ANAG</name>
+               <shortDesc>ANAG</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>7</id>
+               <longDesc>Real Estate Agent</longDesc>
+               <name>REAG</name>
+               <shortDesc>REAG</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>8</id>
+               <longDesc>Other</longDesc>
+               <name>OTHE</name>
+               <shortDesc>OTHE</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>9</id>
+               <longDesc>N/A</longDesc>
+               <name>NOTA</name>
+               <shortDesc>NOTA</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>24</groupId>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>Received housing search assistance</longDesc>
+               <name>HSAS</name>
+               <shortDesc>HSAS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>Obtained temporary rental relief</longDesc>
+               <name>TEMP</name>
+               <shortDesc>TEMP</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>4</id>
+               <longDesc>Counseled and referred to agency with rental assistance program</longDesc>
+               <name>RRAP</name>
+               <shortDesc>RRAP</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>5</id>
+               <longDesc>Advised on recertification for HUD/other subsidy program</longDesc>
+               <name>RCHP</name>
+               <shortDesc>RCHP</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>6</id>
+               <longDesc>Counseled and referred to other social service agency</longDesc>
+               <name>ROSS</name>
+               <shortDesc>ROSS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>7</id>
+               <longDesc>Counseled and referred to legal aid agency for fair housing assistance</longDesc>
+               <name>RLAF</name>
+               <shortDesc>RLAF</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>8</id>
+               <longDesc>Counseled and referred to legal aid agency for assistance with eviction</longDesc>
+               <name>RLAE</name>
+               <shortDesc>RLAE</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>9</id>
+               <longDesc>Found alternative rental housing</longDesc>
+               <name>ALTE</name>
+               <shortDesc>ALTE</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>10</id>
+               <longDesc>Decided to remain in current housing situation</longDesc>
+               <name>RCHS</name>
+               <shortDesc>RCHS</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>11</id>
+               <longDesc>Resolved issue in current tenancy</longDesc>
+               <name>RESO</name>
+               <shortDesc>RESO</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>12</id>
+               <longDesc>Entered debt management/repayment plan</longDesc>
+               <name>DEBT</name>
+               <shortDesc>DEBT</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>13</id>
+               <longDesc>Counseled and utilities brought current</longDesc>
+               <name>UBCU</name>
+               <shortDesc>UBCU</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>14</id>
+               <longDesc>Resolved security deposit dispute</longDesc>
+               <name>SCDD</name>
+               <shortDesc>SCDD</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>15</id>
+               <longDesc>Currently receiving counseling</longDesc>
+               <name>CURR</name>
+               <shortDesc>CURR</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>16</id>
+               <longDesc>Withdrew from counseling</longDesc>
+               <name>WITH</name>
+               <shortDesc>WITH</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>17</id>
+               <longDesc>Other</longDesc>
+               <name>OTHE</name>
+               <shortDesc>OTHE</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>18</id>
+               <longDesc>N/A</longDesc>
+               <name>NOTA</name>
+               <shortDesc>NOTA</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>25</groupId>
+            <referenceItem>
+               <id>1</id>
+               <longDesc>HUD Contact</longDesc>
+               <name>HUD Contact</name>
+               <shortDesc>HUD Contact</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>Office Executive</longDesc>
+               <name>Office Executive</name>
+               <shortDesc>Office Executive</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>Office Manager</longDesc>
+               <name>Office Manager</name>
+               <shortDesc>Office Manager</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>26</groupId>
+            <referenceItem>
+               <id>1</id>
+               <longDesc>N/A</longDesc>
+               <name>NOTA</name>
+               <shortDesc>NOTA</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>NeighborWorks America</longDesc>
+               <name>NWAM</name>
+               <shortDesc>NWAM</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>Other</longDesc>
+               <name>OTHE</name>
+               <shortDesc>OTHE</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>4</id>
+               <longDesc>La Raza</longDesc>
+               <name>LARA</name>
+               <shortDesc>LARA</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>5</id>
+               <longDesc>NCRC</longDesc>
+               <name>NCRC</name>
+               <shortDesc>NCRC</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>27</groupId>
+            <referenceItem>
+               <id>1</id>
+               <longDesc>N/A</longDesc>
+               <name>NOTA</name>
+               <shortDesc>NOTA</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>HUD</longDesc>
+               <name>HUD</name>
+               <shortDesc>HUD</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>Other</longDesc>
+               <name>OTH</name>
+               <shortDesc>OTH</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>28</groupId>
+            <referenceItem>
+               <id>21</id>
+               <longDesc>2015</longDesc>
+               <name>2015</name>
+               <shortDesc>2015</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>22</id>
+               <longDesc>2016</longDesc>
+               <name>2016</name>
+               <shortDesc>2016</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>23</id>
+               <longDesc>2017</longDesc>
+               <name>2017</name>
+               <shortDesc>2017</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>24</id>
+               <longDesc>2018</longDesc>
+               <name>2018</name>
+               <shortDesc>2018</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>25</id>
+               <longDesc>2019</longDesc>
+               <name>2019</name>
+               <shortDesc>2019</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>26</id>
+               <longDesc>2020</longDesc>
+               <name>2020</name>
+               <shortDesc>2020</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>29</groupId>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>Quarter 1</longDesc>
+               <name>Quarter 1</name>
+               <shortDesc>Quarter 1</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>Quarter 2</longDesc>
+               <name>Quarter 2</name>
+               <shortDesc>Quarter 2</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>4</id>
+               <longDesc>Quarter 3</longDesc>
+               <name>Quarter 3</name>
+               <shortDesc>Quarter 3</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>5</id>
+               <longDesc>Quarter 4</longDesc>
+               <name>Quarter 4</name>
+               <shortDesc>Quarter 4</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>30</groupId>
+            <referenceItem>
+               <id>1</id>
+               <longDesc>Face to Face Counseling</longDesc>
+               <name>Face to Face Counseling</name>
+               <shortDesc>Face to Face Counseling</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>Phone Counseling</longDesc>
+               <name>Phone Counseling</name>
+               <shortDesc>Phone Counseling</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>Internet Counseling</longDesc>
+               <name>Internet Counseling</name>
+               <shortDesc>Internet Counseling</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>4</id>
+               <longDesc>Group Counseling</longDesc>
+               <name>Group Counseling</name>
+               <shortDesc>Group Counseling</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>5</id>
+               <longDesc>Video Conference</longDesc>
+               <name>Video Conference</name>
+               <shortDesc>Video Conference</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>6</id>
+               <longDesc>Other Counseling</longDesc>
+               <name>Other Counseling</name>
+               <shortDesc>Other Counseling</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>7</id>
+               <longDesc>Phone Counseling Only</longDesc>
+               <name>Phone Counseling Only</name>
+               <shortDesc>Phone Counseling Only</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>31</groupId>
+            <referenceItem>
+               <id>6</id>
+               <longDesc>Homeless Assistance</longDesc>
+               <name>Homeless Assistance</name>
+               <shortDesc>Homeless Assistance</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>7</id>
+               <longDesc>Rental Topics</longDesc>
+               <name>Rental Topics</name>
+               <shortDesc>Rental Topics</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>8</id>
+               <longDesc>Prepurchase/Homebuying</longDesc>
+               <name>Prepurchase/Homebuying</name>
+               <shortDesc>Prepurchase/Homebuying</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>9</id>
+               <longDesc>Home Maintenance and Financial Management for Homeowners (Non-Delinquency Post-Purchase)</longDesc>
+               <name>Home Maintenance and Financial Management for Homeowners (Non-Delinquency Post-Purchase)</name>
+               <shortDesc>Home Maintenance and Financial Management for Homeowners (Non-Delinquency Post-Purchase)</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>10</id>
+               <longDesc>Reverse Mortgage</longDesc>
+               <name>Reverse Mortgage</name>
+               <shortDesc>Reverse Mortgage</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>11</id>
+               <longDesc>Resolving or Preventing Mortgage Delinquency or Default</longDesc>
+               <name>Resolving or Preventing Mortgage Delinquency or Default</name>
+               <shortDesc>Resolving or Preventing Mortgage Delinquency or Default</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>32</groupId>
+            <referenceItem>
+               <id>1</id>
+               <longDesc>TransUnion</longDesc>
+               <name>TransUnion</name>
+               <shortDesc>TU</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>Equifax</longDesc>
+               <name>Equifax</name>
+               <shortDesc>EQ</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>Experian</longDesc>
+               <name>Experian</name>
+               <shortDesc>EX</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>4</id>
+               <longDesc>Tri-merge</longDesc>
+               <name>Tri-merge</name>
+               <shortDesc>TM</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>5</id>
+               <longDesc>Other</longDesc>
+               <name>Other</name>
+               <shortDesc>OT</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>6</id>
+               <longDesc>N/A</longDesc>
+               <name>N/A</name>
+               <shortDesc>NA</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>33</groupId>
+            <referenceItem>
+               <id>1</id>
+               <longDesc>Client refused to authorize credit report pull</longDesc>
+               <name>Client refused to authorize credit report pull</name>
+               <shortDesc>Client refused to authorize credit report pull</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>NFMC Counseling Organization analyzed credit report that did not contain score</longDesc>
+               <name>NFMC Counseling Organization analyzed credit report that did not contain score</name>
+               <shortDesc>NFMC Counseling Organization analyzed credit report that did not contain score</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>NFMC Counseling Organization does not analyze credit report for this level of service</longDesc>
+               <name>NFMC Counseling Organization does not analyze credit report for this level of service</name>
+               <shortDesc>NFMC Counseling Organization does not analyze credit report for this level of service</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>4</id>
+               <longDesc>NFMC Counseling Organization does not have relationship with credit reporting bureau</longDesc>
+               <name>NFMC Counseling Organization does not have relationship with credit reporting bureau</name>
+               <shortDesc>NFMC Counseling Organization does not have relationship with credit reporting bureau</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>5</id>
+               <longDesc>Foreclosure expected within 14 days</longDesc>
+               <name>Foreclosure expected within 14 days</name>
+               <shortDesc>Foreclosure expected within 14 days</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>6</id>
+               <longDesc>Other</longDesc>
+               <name>Other</name>
+               <shortDesc>Other</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>34</groupId>
+            <referenceItem>
+               <id>1</id>
+               <longDesc>Single Adult</longDesc>
+               <name>Single Adult</name>
+               <shortDesc>Single Adult</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>Female-headed single parent household</longDesc>
+               <name>Female-headed single parent household</name>
+               <shortDesc>Female-headed single parent household</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>Male-headed single parent household</longDesc>
+               <name>Male-headed single parent household</name>
+               <shortDesc>Male-headed single parent household</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>4</id>
+               <longDesc>Married without dependents</longDesc>
+               <name>Married without dependents</name>
+               <shortDesc>Married without dependents</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>5</id>
+               <longDesc>Married with dependents</longDesc>
+               <name>Married with dependents</name>
+               <shortDesc>Married with dependents</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>6</id>
+               <longDesc>Two or more unrelated adults</longDesc>
+               <name>Two or more unrelated adults</name>
+               <shortDesc>Two or more unrelated adults</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>7</id>
+               <longDesc>Other</longDesc>
+               <name>Other</name>
+               <shortDesc>Other</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>35</groupId>
+            <referenceItem>
+               <id>1</id>
+               <longDesc>Fixed rate currently under 8%</longDesc>
+               <name>Fixed rate currently under 8%</name>
+               <shortDesc>Fixed rate currently under 8%</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>Fixed rate currently 8% or greater</longDesc>
+               <name>Fixed rate currently 8% or greater</name>
+               <shortDesc>Fixed rate currently 8% or greater</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>ARM currently under 8%</longDesc>
+               <name>ARM currently under 8%</name>
+               <shortDesc>ARM currently under 8%</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>4</id>
+               <longDesc>ARM currently at 8% or greater</longDesc>
+               <name>ARM currently at 8% or greater</name>
+               <shortDesc>ARM currently at 8% or greater</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>5</id>
+               <longDesc>Fixed rate currently under 8% as a result of loan modification in last six months</longDesc>
+               <name>Fixed rate currently under 8% as a result of loan modification in last six months</name>
+               <shortDesc>Fixed rate currently under 8% as a result of loan modification in last six months</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>6</id>
+               <longDesc>Fixed rate currently 8% or greater as a result of loan modification in last six months</longDesc>
+               <name>Fixed rate currently 8% or greater as a result of loan modification in last six months</name>
+               <shortDesc>Fixed rate currently 8% or greater as a result of loan modification in last six months</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>7</id>
+               <longDesc>ARM currently under 8% as a result of loan modification in last six months</longDesc>
+               <name>ARM currently under 8% as a result of loan modification in last six months</name>
+               <shortDesc>ARM currently under 8% as a result of loan modification in last six months</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>8</id>
+               <longDesc>ARM currently at 8% or greater as a result of loan modification in last six months</longDesc>
+               <name>ARM currently at 8% or greater as a result of loan modification in last six months</name>
+               <shortDesc>ARM currently at 8% or greater as a result of loan modification in last six months</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>9</id>
+               <longDesc>Client did not disclose</longDesc>
+               <name>Client did not disclose</name>
+               <shortDesc>Client did not disclose</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>10</id>
+               <longDesc>N/A</longDesc>
+               <name>N/A</name>
+               <shortDesc>N/A</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>36</groupId>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>Mortgage Delinquency and Default Resolution Counseling</longDesc>
+               <name>Mortgage Delinquency and Default Resolution Counseling</name>
+               <shortDesc>DFC</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>5</id>
+               <longDesc>Reverse Mortgage Counseling</longDesc>
+               <name>Reverse Mortgage Counseling</name>
+               <shortDesc>RMC</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>7</id>
+               <longDesc>Home Improvement and Rehabilitation Counseling</longDesc>
+               <name>Home Improvement and Rehabilitation Counseling</name>
+               <shortDesc>HIC</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>8</id>
+               <longDesc>Services for Homeless Counseling</longDesc>
+               <name>Services for Homeless Counseling</name>
+               <shortDesc>HMC</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>10</id>
+               <longDesc>Financial Management/Budget Counseling</longDesc>
+               <name>Financial Management/Budget Counseling</name>
+               <shortDesc>FBC</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>12</id>
+               <longDesc>Pre-purchase Counseling</longDesc>
+               <name>Pre-purchase Counseling</name>
+               <shortDesc>PPC</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>15</id>
+               <longDesc>Rental Housing Counseling</longDesc>
+               <name>Rental Housing Counseling</name>
+               <shortDesc>RHC</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>37</groupId>
+            <referenceItem>
+               <id>1</id>
+               <longDesc>H/H that received one-on-one counseling that also received group education services.</longDesc>
+               <name>H/H that received one-on-one counseling that also received group education services.</name>
+               <shortDesc>H/H that received one-on-one counseling that also received group education services.</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>H/H that received information on fair housing, fair lending and/or accessibility rights.</longDesc>
+               <name>H/H that received information on fair housing, fair lending and/or accessibility rights.</name>
+               <shortDesc>H/H that received information on fair housing, fair lending and/or accessibility rights.</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>H/H for whom counselor developed a sustainable household budget through the provision of financial management and/or budget services.</longDesc>
+               <name>H/H for whom counselor developed a sustainable household budget through the provision of financial management and/or budget services.</name>
+               <shortDesc>H/H for whom counselor developed a sustainable household budget through the provision of financial management and/or budget services.</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>4</id>
+               <longDesc>H/H that improved their financial capacity (e.g. increased discretionary income, decreased debt load, increased savings, increased credit score) after receiving Housing Counseling Services.</longDesc>
+               <name>H/H that improved their financial capacity (e.g. increased discretionary income, decreased debt load, increased savings, increased credit score) after receiving Housing Counseling Services.</name>
+               <shortDesc>H/H that improved their financial capacity (e.g. increased discretionary income, decreased debt load, increased savings, increased credit score) after receiving Housing Counseling Services.</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>5</id>
+               <longDesc>H/H that gained access to resources to help them improve their housing situation (e.g. down payment assistance, rental assistance, utility assistance, etc.) after receiving Housing Counseling Services.</longDesc>
+               <name>H/H that gained access to resources to help them improve their housing situation (e.g. down payment assistance, rental assistance, utility assistance, etc.) after receiving Housing Counseling Services.</name>
+               <shortDesc>H/H that gained access to resources to help them improve their housing situation (e.g. down payment assistance, rental assistance, utility assistance, etc.) after receiving Housing Counseling Services.</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>6</id>
+               <longDesc>H/H that gained access to non-housing resources (e.g. social service programs, legal services, public benefits such as Social Security or Medicaid, etc) after receiving Housing Counseling Services.</longDesc>
+               <name>H/H that gained access to non-housing resources (e.g. social service programs, legal services, public benefits such as Social Security or Medicaid, etc) after receiving Housing Counseling Services.</name>
+               <shortDesc>H/H that gained access to non-housing resources (e.g. social service programs, legal services, public benefits such as Social Security or Medicaid, etc) after receiving Housing Counseling Services.</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>7</id>
+               <longDesc>Homeless or potentially homeless H/H that obtained temporary or permanent housing after receiving Housing Counseling Services.</longDesc>
+               <name>Homeless or potentially homeless H/H that obtained temporary or permanent housing after receiving Housing Counseling Services.</name>
+               <shortDesc>Homeless or potentially homeless H/H that obtained temporary or permanent housing after receiving Housing Counseling Services.</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>8</id>
+               <longDesc>H/H that received rental counseling and avoided eviction after receiving Housing Counseling Services.</longDesc>
+               <name>H/H that received rental counseling and avoided eviction after receiving Housing Counseling Services.</name>
+               <shortDesc>H/H that received rental counseling and avoided eviction after receiving Housing Counseling Services.</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>9</id>
+               <longDesc>H/H that received rental counseling and improved living conditions after receiving Housing Counseling Services.</longDesc>
+               <name>H/H that received rental counseling and improved living conditions after receiving Housing Counseling Services.</name>
+               <shortDesc>H/H that received rental counseling and improved living conditions after receiving Housing Counseling Services.</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>10</id>
+               <longDesc>H/H that received prepurchase/homebuying counseling and purchased housing after receiving Housing Counseling Services.</longDesc>
+               <name>H/H that received prepurchase/homebuying counseling and purchased housing after receiving Housing Counseling Services.</name>
+               <shortDesc>H/H that received prepurchase/homebuying counseling and purchased housing after receiving Housing Counseling Services.</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>11</id>
+               <longDesc>H/H that received reverse mortgage counseling and obtained a Home Equity Conversion Mortgage (HECM) after receiving Housing Counseling Services.</longDesc>
+               <name>H/H that received reverse mortgage counseling and obtained a Home Equity Conversion Mortgage (HECM) after receiving Housing Counseling Services.</name>
+               <shortDesc>H/H that received reverse mortgage counseling and obtained a Home Equity Conversion Mortgage (HECM) after receiving Housing Counseling Services.</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>12</id>
+               <longDesc>H/H that received non-delinquency post-purchase counseling that were able to improve home conditions or home affordability after receiving Housing Counseling Services.</longDesc>
+               <name>H/H that received non-delinquency post-purchase counseling that were able to improve home conditions or home affordability after receiving Housing Counseling Services.</name>
+               <shortDesc>H/H that received non-delinquency post-purchase counseling that were able to improve home conditions or home affordability after receiving Housing Counseling Services.</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>13</id>
+               <longDesc>H/H that prevented or resolved a mortgage default after receiving Housing Counseling Services.</longDesc>
+               <name>H/H that prevented or resolved a mortgage default after receiving Housing Counseling Services.</name>
+               <shortDesc>H/H that prevented or resolved a mortgage default after receiving Housing Counseling Services.</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>38</groupId>
+            <referenceItem>
+               <id>4</id>
+               <longDesc>Activities for All Counseling and Education</longDesc>
+               <name>Activities for All Counseling and Education</name>
+               <shortDesc>Activities for All Counseling and Education</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>7</id>
+               <longDesc>NOFA 2014-1 COMP</longDesc>
+               <name>NOFA 2014-1 COMP</name>
+               <shortDesc>NOFA 2014-1 COMP</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>8</id>
+               <longDesc>NOFA 2014-2 TRNG</longDesc>
+               <name>NOFA 2014-2 TRNG</name>
+               <shortDesc>NOFA 2014-2 TRNG</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>9</id>
+               <longDesc>NOFA 2015-1 COMP</longDesc>
+               <name>NOFA 2015-1 COMP</name>
+               <shortDesc>NOFA 2015-1 COMP</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>10</id>
+               <longDesc>NOFA 2015-2 COMP</longDesc>
+               <name>NOFA 2015-2 COMP</name>
+               <shortDesc>NOFA 2015-2 COMP</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>11</id>
+               <longDesc>NOFA 2016-1 COMP</longDesc>
+               <name>NOFA 2016-1 COMP</name>
+               <shortDesc>NOFA 2016-1 COMP</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>12</id>
+               <longDesc>NOFA 2017-1 COMP</longDesc>
+               <name>NOFA 2017-1 COMP</name>
+               <shortDesc>NOFA 2017-1 COMP</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>13</id>
+               <longDesc>NOFA 2018-1 COMP</longDesc>
+               <name>NOFA 2018-1 COMP</name>
+               <shortDesc>NOFA 2018-1 COMP</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>39</groupId>
+            <referenceItem>
+               <id>1</id>
+               <longDesc>Household is Limited English Proficient</longDesc>
+               <name>Household is Limited English Proficient</name>
+               <shortDesc>Household is Limited English Proficient</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>Household is not Limited English Proficient</longDesc>
+               <name>Household is not Limited English Proficient</name>
+               <shortDesc>Household is not Limited English Proficient</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>Chose not to respond</longDesc>
+               <name>Chose not to respond</name>
+               <shortDesc>Chose not to respond</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>
+         <referenceItemGroup>
+            <groupId>40</groupId>
+            <referenceItem>
+               <id>1</id>
+               <longDesc>Household lives in a rural area</longDesc>
+               <name>Household lives in a rural area</name>
+               <shortDesc>Household lives in a rural area</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>2</id>
+               <longDesc>Household does not live in a rural area</longDesc>
+               <name>Household does not live in a rural area</name>
+               <shortDesc>Household does not live in a rural area</shortDesc>
+            </referenceItem>
+            <referenceItem>
+               <id>3</id>
+               <longDesc>Chose not to respond</longDesc>
+               <name>Chose not to respond</name>
+               <shortDesc>Chose not to respond</shortDesc>
+            </referenceItem>
+         </referenceItemGroup>

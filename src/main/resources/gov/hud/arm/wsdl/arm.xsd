@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xs:schema attributeFormDefault="unqualified" 
+	xmlns="http://service.arm.hud.gov/" elementFormDefault="unqualified" 
+	targetNamespace="http://service.arm.hud.gov/"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="nonNegativeInt">
+		<xs:restriction base="xs:int">
+			<xs:minInclusive value="0" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="zeroOrOne">
+		<xs:restriction base="xs:int">
+			<xs:minInclusive value="0" />
+			<xs:maxInclusive value="1" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="threeDigitNumber">
+		<xs:restriction base="xs:int">
+			<xs:totalDigits value="3" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="processingSuccessful" type="xs:boolean" />
+	<xs:element name="submissionRequestStatus" type="nonNegativeInt" />
+	<xs:element name="processingErrorDescription" type="xs:string" />
+	<xs:element name="agcName" type="xs:string" />
+	<xs:element name="message" type="xs:string" />
+	<xs:element name="submissionId" type="xs:long" />
+	<xs:element name="systemName" type="threeDigitNumber" />
+	<xs:element name="id" type="xs:int" />
+	<xs:element name="groupId" type="xs:int"/>
+	<xs:element name="longDesc" type="xs:string" />
+	<xs:element name="name" type="xs:string" />
+	<xs:element name="shortDesc" type="xs:string" />
+	<xs:element name="agcHcsId" type="nonNegativeInt" />
+	<xs:element name="fiscalYearId" type="nonNegativeInt" />
+	<xs:element name="referenceId" type="nonNegativeInt" />
+	<xs:element name="cmsVendorId" type="nonNegativeInt"/>
+	<xs:element name="cmsPassword" type="xs:string"/>
+	<xs:element name="statusDate" type="xs:dateTime" />
+	<xs:element name="subFlag" type="zeroOrOne" />
+	<xs:element name="statusMessage">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:pattern value="NOT FOUND" />
+				<xs:pattern value="RECEIVED" />
+				<xs:pattern value="PROCESSING" />
+				<xs:pattern value="DONE" />
+				<xs:pattern value="ERROR[:][\s\S]*" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="referenceItem">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" ref="id" />
+				<xs:element minOccurs="1" ref="longDesc" />
+				<xs:element minOccurs="1" ref="name" />
+				<xs:element minOccurs="1" ref="shortDesc" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="referenceItemGroup">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" ref="groupId" />
+				<xs:element minOccurs="0" ref="referenceItem" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="referenceGroup">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" ref="id" />
+				<xs:element minOccurs="1" ref="name"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="submissionData" mime:expectedContentTypes="application/octet-stream" type="xs:base64Binary" xmlns:mime="http://www.w3.org/2005/05/xmlmime" />
+	<xs:element name="submissionHeader">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" ref="agcHcsId" />
+				<xs:element minOccurs="1" ref="agcName" />
+				<xs:element minOccurs="1" ref="systemName" />
+				<xs:element minOccurs="1" ref="subFlag" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="submissionHeader5.0">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" ref="agcHcsId" />
+				<xs:element minOccurs="1" ref="agcName" />
+				<xs:element minOccurs="1" ref="fiscalYearId" />
+				<xs:element minOccurs="1" ref="cmsVendorId" />
+				<xs:element minOccurs="1" ref="cmsPassword" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="submissionDataEncoding">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:pattern value="TEXT/XML" />
+				<xs:pattern value="ZIP" />
+				<xs:pattern value="GZIP" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="ping">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" ref="agcHcsId" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="pingResponse">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:pattern value="ARM Service Version 1[0-9](([.][0-9])|([.][1-9][0-9])){3} [(]Latest Databag Version [3-9][.][0-9][)].*" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="getVersion"/>
+	<xs:element name="getVersionResponse">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:pattern value="ARM Reference Service Version 1([.][0-9]){3} [(]with ARM Service 1[0-9]([.][0-9]|([.][1-9][0-9])){3}[)] [(]Latest Databag Version [3-9][.][0-9][)]" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="getReference">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" ref="agcHcsId"/>
+				<xs:element minOccurs="1" ref="referenceId"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="getReferenceItemData">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" ref="referenceId"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="getReferenceResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" ref="referenceItem" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="getAllReferenceItems">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" ref="agcHcsId"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>	
+	<xs:element name="getAllReferenceItemData"/>
+	<xs:element name="getAllReferenceItemsResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" ref="referenceItemGroup" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="getReferenceGroupNameData"/>
+	<xs:element name="getReferenceGroupNames">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" ref="agcHcsId"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>	
+	<xs:element name="getReferenceGroupNamesResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" ref="referenceGroup" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="postSubmission">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" ref="submissionHeader" />
+				<xs:element minOccurs="0" ref="submissionDataEncoding"/>
+				<xs:element minOccurs="1" ref="submissionData" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="postAgencyData">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" ref="submissionHeader5.0" />
+				<xs:element minOccurs="0" ref="submissionDataEncoding"/>
+				<xs:element minOccurs="1" ref="submissionData" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="postCounselorData">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" ref="submissionHeader5.0" />
+				<xs:element minOccurs="0" ref="submissionDataEncoding"/>
+				<xs:element minOccurs="1" ref="submissionData" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="postClientData">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" ref="submissionHeader5.0" />
+				<xs:element minOccurs="0" ref="submissionDataEncoding"/>
+				<xs:element minOccurs="1" ref="submissionData" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="postForm9902Data">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" ref="submissionHeader5.0" />
+				<xs:element minOccurs="0" ref="submissionDataEncoding"/>
+				<xs:element minOccurs="1" ref="submissionData" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="postSubmissionResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" ref="submissionId" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="getSubmissionInfo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" ref="agcHcsId" />
+				<xs:element minOccurs="1" ref="submissionId" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="getSubmissionInfoResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" ref="statusDate" />
+				<xs:element minOccurs="1" ref="statusMessage" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="getDetailedErrorMessage">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" ref="agcHcsId" />
+				<xs:element minOccurs="1" ref="submissionId" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="getDetailedErrorMessageResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" ref="statusDate" />
+				<xs:element minOccurs="1" ref="message" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="refreshReferenceItemDataCache">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" ref="referenceId" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="refreshReferenceItemCache">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" ref="agcHcsId" />
+				<xs:element minOccurs="1" ref="referenceId" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="refreshAllReferenceItemDataInCache"/>
+	<xs:element name="refreshAllReferenceItemsInCache">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" ref="agcHcsId" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="refreshReferenceItemDataCacheResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" ref="message" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>	
+	<xs:element name="refreshAllReferenceItemDataInCacheResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" ref="message" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>	
+</xs:schema>

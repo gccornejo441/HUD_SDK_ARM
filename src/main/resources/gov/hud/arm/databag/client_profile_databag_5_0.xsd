@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://gov.hud.arm/client_profile_databag_5_0" targetNamespace="http://gov.hud.arm/client_profile_databag_5_0" xmlns:tns="http://gov.hud.arm/client_profile_databag_5_0"
+	xmlns:st="http://gov.hud.arm/arm_databag" elementFormDefault="qualified">
+	<xs:import schemaLocation="simpleTypes5.0.xsd" namespace="http://gov.hud.arm/arm_databag" />
+	<xs:element name="SubmissionData">
+    <xs:complexType>
+      <xs:all>
+        <xs:element name="Client_Profiles" type="Client_Profiles" minOccurs="0"/>
+      </xs:all>
+    </xs:complexType>
+  </xs:element>  
+  <xs:complexType name="Client_Profiles">
+    <xs:sequence>
+      <xs:element name="Client_Profile" type="Client_Profile" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+	<xs:complexType name="Client_Profile">
+		<xs:all>
+			<xs:element name="Client_ID_Num" type="st:refId" />
+			<xs:element name="Client_Case_Num" type="st:refId" />
+			<xs:element name="Client_SSN1" type="st:ssn" minOccurs="0" />
+			<xs:element name="Client_SSN2" type="st:ssnLast" minOccurs="0" />
+			<xs:element name="Client_First_Name" type="st:name" minOccurs="0" />
+			<xs:element name="Client_Last_Name" type="st:name" minOccurs="0" />
+			<xs:element name="Client_Middle_Name" type="st:name" minOccurs="0" />
+			<xs:element name="Client_Street_Address_1" type="st:fieldValue" minOccurs="0" />
+			<xs:element name="Client_Street_Address_2" type="st:fieldValue" minOccurs="0" />
+			<xs:element name="Client_City" type="st:fieldValue" />
+			<xs:element name="Client_State" type="st:state" />
+			<xs:element name="Client_Zip" type="st:zip" />
+			<xs:element name="Client_New_Street_Address_1" type="st:fieldValue" minOccurs="0" />
+			<xs:element name="Client_New_Street_Address_2" type="st:fieldValue" minOccurs="0" />
+			<xs:element name="Client_New_City" type="st:fieldValue" minOccurs="0" />
+			<xs:element name="Client_New_State" type="st:state" minOccurs="0" />
+			<xs:element name="Client_New_Zip" type="st:zip" minOccurs="0" />
+			<xs:element name="Client_Phone_Num" type="st:phone" minOccurs="0" />
+			<xs:element name="Client_Mobile_Phone_Num" type="st:phoneWithoutExtension" minOccurs="0" />
+			<xs:element name="Client_Fax" type="st:phoneWithoutExtension" minOccurs="0" />
+			<xs:element name="Client_Email" type="st:email" minOccurs="0" />
+			<xs:element name="Client_Family_Size" type="st:numericFieldValue" minOccurs="0" />
+			<xs:element name="Client_Gender" type="st:gender" minOccurs="0" />
+			<xs:element name="Client_Marital_Status" type="st:maritalStatus" />
+			<xs:element name="Client_Race_ID" type="st:race" />
+			<xs:element name="Client_Ethnicity_ID" type="st:ethnicity" />
+			<xs:element name="Client_Household_Gross_Monthly_Income" type="st:numericFieldValue" />
+			<xs:element name="Client_Head_Of_Household_Type" type="st:refId" />
+			<xs:element name="Client_Birth_DT" type="st:date" minOccurs="0" />
+			<xs:element name="Client_Counselor_ID" type="st:refId" />
+			<xs:element name="Client_Highest_Educ_Grade" type="st:educationLevel" />
+			<xs:element name="Client_Farm_Worker" type="st:yesOrNo" />
+			<xs:element name="Client_Rural_Area" type="st:ruralAreaId" />
+			<xs:element name="Client_Limited_English_Proficiency" type="st:limitedEngProfId" />
+			<xs:element name="Client_Colonias_Resident" type="st:yesOrNo" />
+			<xs:element name="Client_HUD_Assistance" type="st:hudAssistance" />
+			<xs:element name="Client_Disabled" type="st:yesOrNo" />
+			<xs:element name="Client_Dependents_Num" type="st:numericFieldValue" />
+			<xs:element name="Client_Intake_DT" type="st:date" />
+			<xs:element name="Client_Counsel_Start_Session_DateTime" type="st:dateTime" />
+			<xs:element name="Client_Counsel_End_Session_DateTime" type="st:dateTime" minOccurs="0"/>
+			<xs:element name="Client_Language_Spoken" type="st:languageId" />
+			<xs:element name="Client_Session_Duration" type="st:numericFieldValue" />
+			<xs:element name="Client_Counseling_Type" type="st:counselingType" />
+			<xs:element name="Client_Counseling_Termination" type="st:counselingTermination" />
+			<xs:element name="Client_Counseling_Fee" type="st:numericFieldValue" minOccurs="0" />
+			<xs:element name="Client_Attribute_HUD_Grant" type="st:hudGrantType" />
+			<xs:element name="Client_Grant_Amount_Used" type="st:moneyField" minOccurs="0"/>
+			<xs:element name="Client_HECM_Certificate" type="st:yesOrNo" minOccurs="0" />
+			<xs:element name="Client_HECM_Certificate_Issue_Date" type="st:date" minOccurs="0" />
+			<xs:element name="Client_HECM_Certificate_Expiration_Date" type="st:date" minOccurs="0" />
+			<xs:element name="Client_HECM_Certificate_ID" type="st:fieldValue" minOccurs="0" />
+			<xs:element name="Client_Predatory_Lending" type="st:yesOrNo" minOccurs="0" />
+			<xs:element name="Client_Mortgage_Type" type="st:mortgageType" minOccurs="0" />
+			<xs:element name="Client_Mortgage_Type_After" type="st:mortgageType" minOccurs="0" />
+			<xs:element name="Client_Finance_Type_Before" type="st:financeType" minOccurs="0" />
+			<xs:element name="Client_Finance_Type_After" type="st:financeType" minOccurs="0" />
+			<xs:element name="Client_FirstTime_Home_Buyer" type="st:yesOrNo" minOccurs="0" />
+			<xs:element name="Client_Discrimination_Victim" type="st:yesOrNo" />
+			<xs:element name="Client_Mortgage_Closing_Cost" type="st:numericFieldValue" minOccurs="0" />
+			<xs:element name="Client_Mortgage_Interest_Rate" type="st:interestRate" minOccurs="0" />
+			<xs:element name="Client_Referred_By" type="st:referredBy" />
+			<xs:element name="Client_Sales_Contract_Signed" type="st:date" minOccurs="0" />
+			<xs:element name="Client_Job_Duration" type="st:numericFieldValue" />			
+			<xs:element name="Client_Credit_Score" type="st:numericFieldValue" minOccurs="0" />
+			<xs:element name="Client_No_Credit_Score_Reason" type="st:refId" minOccurs="0" />
+			<xs:element name="Client_Credit_Score_Source" type="st:refId" minOccurs="0" />
+			<xs:element name="Client_Household_Debt" type="st:numericFieldValue" />
+			<xs:element name="Client_Mortgage_Deliquency" type="st:yesOrNo" minOccurs="0" />
+			<xs:element name="Client_Loan_Being_Reported" type="st:loanIndicator" minOccurs="0" />
+			<xs:element name="Client_Second_Loan_Exists" type="st:yesOrNo" minOccurs="0" />
+			<xs:element name="Client_Intake_Loan_Type" type="st:loanIntakeTypeId" minOccurs="0" />
+			<xs:element name="Client_Intake_Loan_Type_Is_Hybrid_ARM" type="st:yesOrNo" minOccurs="0"/>
+			<xs:element name="Client_Intake_Loan_Type_Is_Option_ARM" type="st:yesOrNo" minOccurs="0"/>
+			<xs:element name="Client_Intake_Loan_Type_Is_Interest_Only" type="st:yesOrNo" minOccurs="0"/>
+			<xs:element name="Client_Intake_Loan_Type_Is_FHA_Or_VA_Insured" type="st:yesOrNo" minOccurs="0" />
+			<xs:element name="Client_Intake_Loan_Type_Is_Privately_Held" type="st:yesOrNo" minOccurs="0"/>
+			<xs:element name="Client_Intake_Loan_Type_Has_Interest_Rate_Reset" type="st:yesOrNo" minOccurs="0"/>
+			<xs:element name="Client_Spouse_First_Name" type="st:fieldValue" minOccurs="0" />
+			<xs:element name="Client_Spouse_Last_Name" type="st:fieldValue" minOccurs="0" />
+			<xs:element name="Client_Spouse_Middle_Name" type="st:fieldValue" minOccurs="0" />
+			<xs:element name="Client_Spouse_SSN" type="st:ssn" minOccurs="0" />
+			<xs:element name="Client_Income_Level" type="st:incomeLevel" />
+			<xs:element name="Client_Purpose_Of_Visit" type="st:refId"/>
+			<xs:element name="Client_Activity_Type" type="st:activityTypeId" />
+			<xs:element name="Client_9902_Reporting_Qtr" type="st:refId" minOccurs="0" />
+			<xs:element name="Client_Impacts"  minOccurs="0" >
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Client_Impact" type="st:impactId" maxOccurs="unbounded" />
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>		
+		</xs:all>
+	</xs:complexType>
+</xs:schema>

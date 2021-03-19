@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wsdl:definitions name="ArmServiceImplService" targetNamespace="http://service.arm.hud.gov/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://service.arm.hud.gov/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:http-conf="http://cxf.apache.org/transports/http/configuration">
+	<wsdl:documentation>ARM VERSION: 14.16.5.0</wsdl:documentation>
+	<wsdl:types>
+		<xsd:schema targetNamespace="http://service.arm.hud.gov/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+			<xsd:include schemaLocation="arm.xsd" />
+		</xsd:schema>
+	</wsdl:types>
+	<wsdl:message name="ping">
+		<wsdl:part element="tns:ping" name="ping">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="pingResponse">
+		<wsdl:part element="tns:pingResponse" name="pingResponse">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="getReference">
+		<wsdl:part element="tns:getReference" name="getReference">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="getReferenceResponse">
+		<wsdl:part element="tns:getReferenceResponse" name="getReferenceResponse">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="getAllReferenceItems">
+		<wsdl:part element="tns:getAllReferenceItems" name="getAllReferenceItems">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="getAllReferenceItemsResponse">
+		<wsdl:part element="tns:getAllReferenceItemsResponse" name="getAllReferenceItemsResponse">
+		</wsdl:part>
+	</wsdl:message>
+		<wsdl:message name="getReferenceGroupNames">
+		<wsdl:part element="tns:getReferenceGroupNames" name="getReferenceGroupNames">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="getReferenceGroupNamesResponse">
+		<wsdl:part element="tns:getReferenceGroupNamesResponse" name="getReferenceGroupNamesResponse">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="postSubmission">
+		<wsdl:part element="tns:postSubmission" name="postSubmission">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="postAgencyData">
+		<wsdl:part element="tns:postAgencyData" name="agencyData">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="postCounselorData">
+		<wsdl:part element="tns:postCounselorData" name="postCounselorData">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="postClientData">
+		<wsdl:part element="tns:postClientData" name="postClientData">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="postForm9902Data">
+		<wsdl:part element="tns:postForm9902Data" name="postForm9902Data">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="postSubmissionResponse">
+		<wsdl:part element="tns:postSubmissionResponse" name="postSubmissionResponse">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="getSubmissionInfo">
+		<wsdl:part element="tns:getSubmissionInfo" name="getSubmissionInfo">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="getSubmissionInfoResponse">
+		<wsdl:part element="tns:getSubmissionInfoResponse" name="getSubmissionInfoResponse">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="getDetailedErrorMessage">
+		<wsdl:part element="tns:getDetailedErrorMessage" name="getDetailedErrorMessage">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="getDetailedErrorMessageResponse">
+		<wsdl:part element="tns:getDetailedErrorMessageResponse" name="getDetailedErrorMessageResponse">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="refreshReferenceItemCache">
+		<wsdl:part element="tns:refreshReferenceItemCache" name="refreshReferenceItemCache">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="refreshAllReferenceItemsInCache">
+		<wsdl:part element="tns:refreshAllReferenceItemsInCache" name="refreshAllReferenceItemsInCache">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:portType name="ArmService">
+		<wsdl:operation name="ping">
+			<wsdl:input message="tns:ping" name="ping">
+			</wsdl:input>
+			<wsdl:output message="tns:pingResponse" name="pingResponse">
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getReference">
+			<wsdl:input message="tns:getReference" name="getReference">
+			</wsdl:input>
+			<wsdl:output message="tns:getReferenceResponse" name="getReferenceResponse">
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name ="getAllReferenceItems">
+			<wsdl:input message="tns:getAllReferenceItems" name="getAllReferenceItems">
+			</wsdl:input>
+			<wsdl:output message="tns:getAllReferenceItemsResponse" name="getAllReferenceItemsResponse">
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name ="getReferenceGroupNames">
+			<wsdl:input message="tns:getReferenceGroupNames" name="getReferenceGroupNames">
+			</wsdl:input>
+			<wsdl:output message="tns:getReferenceGroupNamesResponse" name="getReferenceGroupNamesResponse">
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="postSubmission">
+			<wsdl:input message="tns:postSubmission" name="postSubmission">
+			</wsdl:input>
+			<wsdl:output message="tns:postSubmissionResponse" name="postSubmissionResponse">
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="postAgencyData">
+			<wsdl:input message="tns:postAgencyData" name="postAgencyData">
+			</wsdl:input>
+			<wsdl:output message="tns:postSubmissionResponse" name="postAgencyDataResponse">
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="postCounselorData">
+			<wsdl:input message="tns:postCounselorData" name="postCounselorData">
+			</wsdl:input>
+			<wsdl:output message="tns:postSubmissionResponse" name="postCounselorDataResponse">
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="postClientData">
+			<wsdl:input message="tns:postClientData" name="postClientData">
+			</wsdl:input>
+			<wsdl:output message="tns:postSubmissionResponse" name="postClientDataResponse">
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="postForm9902Data">
+			<wsdl:input message="tns:postForm9902Data" name="postForm9902Data">
+			</wsdl:input>
+			<wsdl:output message="tns:postSubmissionResponse" name="postForm9902DataResponse">
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getSubmissionInfo">
+			<wsdl:input message="tns:getSubmissionInfo" name="getSubmissionInfo">
+			</wsdl:input>
+			<wsdl:output message="tns:getSubmissionInfoResponse" name="getSubmissionInfoResponse">
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getDetailedErrorMessage">
+			<wsdl:input message="tns:getDetailedErrorMessage" name="getDetailedErrorMessage">
+			</wsdl:input>
+			<wsdl:output message="tns:getDetailedErrorMessageResponse" name="getDetailedErrorMessageResponse">
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name ="refreshReferenceItemCache">
+			<wsdl:input message="tns:refreshReferenceItemCache" name="refreshReferenceItemCache">
+			</wsdl:input>
+		</wsdl:operation>
+		<wsdl:operation name ="refreshAllReferenceItemsInCache">
+			<wsdl:input message="tns:refreshAllReferenceItemsInCache" name="refreshAllReferenceItemsInCache">
+			</wsdl:input>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="ArmServiceImplServiceSoapBinding" type="tns:ArmService">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+		<wsdl:operation name="ping">
+			<soap:operation soapAction="" style="document" />
+			<wsdl:input name="ping">
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output name="pingResponse">
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getReference">
+			<soap:operation soapAction="" style="document" />
+			<wsdl:input name="getReference">
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output name="getReferenceResponse">
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getAllReferenceItems">
+			<soap:operation soapAction="" style="document" />
+			<wsdl:input name="getAllReferenceItems">
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output name="getAllReferenceItemsResponse">
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getReferenceGroupNames">
+			<soap:operation soapAction="" style="document" />
+			<wsdl:input name="getReferenceGroupNames">
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output name="getReferenceGroupNamesResponse">
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="postSubmission">
+			<soap:operation soapAction="" style="document" />
+			<wsdl:input name="postSubmission">
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output name="postSubmissionResponse">
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="postAgencyData">
+			<soap:operation soapAction="" style="document" />
+			<wsdl:input name="postAgencyData">
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output name="postAgencyDataResponse">
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="postCounselorData">
+			<soap:operation soapAction="" style="document" />
+			<wsdl:input name="postCounselorData">
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output name="postCounselorDataResponse">
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="postClientData">
+			<soap:operation soapAction="" style="document" />
+			<wsdl:input name="postClientData">
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output name="postClientDataResponse">
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="postForm9902Data">
+			<soap:operation soapAction="" style="document" />
+			<wsdl:input name="postForm9902Data">
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output name="postForm9902DataResponse">
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getSubmissionInfo">
+			<soap:operation soapAction="" style="document" />
+			<wsdl:input name="getSubmissionInfo">
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output name="getSubmissionInfoResponse">
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getDetailedErrorMessage">
+			<soap:operation soapAction="" style="document" />
+			<wsdl:input name="getDetailedErrorMessage">
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output name="getDetailedErrorMessageResponse">
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name ="refreshReferenceItemCache">
+			<soap:operation soapAction="" style="document" />
+			<wsdl:input name="refreshReferenceItemCache">
+				<soap:body use="literal"/>
+			</wsdl:input>
+		</wsdl:operation>				
+		<wsdl:operation name ="refreshAllReferenceItemsInCache">
+			<soap:operation soapAction="" style="document" />
+			<wsdl:input name="refreshAllReferenceItemsInCache">
+				<soap:body use="literal" />
+			</wsdl:input>
+		</wsdl:operation>	
+	</wsdl:binding>
+	<wsdl:service name="ArmServiceImplService">
+		<wsdl:port binding="tns:ArmServiceImplServiceSoapBinding" name="ArmServiceImplPort">
+			<soap:address location="http://localhost:8080/ARM/ARM/" />
+			<http-conf:server
+				ReceiveTimeout = "0"
+				HonorKeepAlive = "true"/>
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

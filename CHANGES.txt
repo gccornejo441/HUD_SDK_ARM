@@ -1,0 +1,23 @@
+ARM-SDK version 1.51
+
+1. File referenceData.txt updated with current values.
+	
+2. Changes to the ARM XML Schema:
+
+	1. Client_9902_Reporting_Qtr field added to client_profile_databag_5_0.xsd: 
+		This new field is currently optional with plans to be required in the future. 
+		The field should include the report_period_id reference value for the 9902 reporting quarter 
+		that the counseling activity is to be initially reported for. 
+	2. Client_Gender changed to optional, additional option of O added. 
+		In client_profile_databag_5_0.xsd, the existing Client_Gender field has been changed from 
+		required to optional and a third option of “O” for Other has been added as a valid response.
+	3. Disallow octal values. 
+		The ARM XML schema has been updated to disallow numeric values starting with zeroes, 
+		as ARM interprets such values as octal.
+	4. Interest rate fields allow for 1 to 3 digits after the decimal. 
+		In client_profile_databag_5_0.xsd, the interestRate type has been changed from requiring 
+		strictly 3 digits after the decimal place to allowing 1-3 digits after the decimal place.
+	5. Remove legacy simple types: 
+		The hcsId, outcomeOfVisitId, cmsType, and groupSessionType simple types have been removed 
+		as they are no longer being used. 
+

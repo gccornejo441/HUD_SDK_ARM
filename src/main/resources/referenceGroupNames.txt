@@ -1,0 +1,152 @@
+         <referenceGroup>
+            <id>0</id>
+            <name>States</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>1</id>
+            <name>Languages</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>3</id>
+            <name>Races</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>4</id>
+            <name>Ethnicities</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>5</id>
+            <name>Mortgage Types</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>6</id>
+            <name>Marital Statuses</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>7</id>
+            <name>Contact Types</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>10</id>
+            <name>CMS Vendor Names</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>11</id>
+            <name>Counseling Termination Reasons</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>12</id>
+            <name>Counseling Session Types</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>13</id>
+            <name>Education Levels</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>14</id>
+            <name>Finance Types</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>15</id>
+            <name>Group Session Types</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>16</id>
+            <name>Home Maintenance Counseling Outcomes</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>17</id>
+            <name>Homeless Counseling Outcomes</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>18</id>
+            <name>HUD Assistance Types</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>19</id>
+            <name>HUD Grant Types</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>20</id>
+            <name>Income Levels</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>21</id>
+            <name>Mortgage Delinquency Counseling Outcomes</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>22</id>
+            <name>Prepurchase Counseling Outcomes</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>23</id>
+            <name>Referred By Types</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>24</id>
+            <name>Rental Counseling Outcomes</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>25</id>
+            <name>Contact Titles</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>26</id>
+            <name>Training Organizations</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>27</id>
+            <name>Training Sponsors</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>28</id>
+            <name>Fiscal Years</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>29</id>
+            <name>Report Periods</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>30</id>
+            <name>Counseling Methods</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>31</id>
+            <name>Counseling Purposes</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>32</id>
+            <name>Credit Score Sources</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>33</id>
+            <name>Missing Credit Score Reasons</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>34</id>
+            <name>Head of Household Types</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>35</id>
+            <name>Loan Intake Types</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>36</id>
+            <name>Counselor Service Types</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>37</id>
+            <name>Counseling Impacts</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>38</id>
+            <name>Activity Types</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>39</id>
+            <name>Limited English Proficiency Types</name>
+         </referenceGroup>
+         <referenceGroup>
+            <id>40</id>
+            <name>Rural Area Types</name>
+         </referenceGroup>

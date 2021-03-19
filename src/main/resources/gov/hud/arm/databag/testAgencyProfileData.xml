@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tns:SubmissionData xsi:schemaLocation='http://gov.hud.arm/agency_profile_databag_5_0 agency_profile_databag_5_0.xsd' xmlns:tns='http://gov.hud.arm/agency_profile_databag_5_0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+	<tns:AgencyProfileData>
+		<tns:Agency_EIN>38-6142925</tns:Agency_EIN>
+		<tns:Reported_Month>6</tns:Reported_Month>
+		<tns:Agency_DUN_Nbr>172773500</tns:Agency_DUN_Nbr>
+		<tns:Agency_Physical_Address1>38505 Country Club Dr</tns:Agency_Physical_Address1>
+		<tns:Agency_Physical_Address2>Suite 210</tns:Agency_Physical_Address2>
+		<tns:Agency_Physical_City>Farmington Hills</tns:Agency_Physical_City>
+		<tns:Agency_Physical_State>28</tns:Agency_Physical_State>
+		<tns:Agency_Physical_Zip>48331</tns:Agency_Physical_Zip>
+		<tns:Agency_Website>http://www.greenpath.com</tns:Agency_Website>
+		<tns:Agency_Phone_Nbr>248-553-5400</tns:Agency_Phone_Nbr>
+		<tns:Agency_Tollfree_Phone_Nbr>888-860-4167</tns:Agency_Tollfree_Phone_Nbr>
+		<tns:Agency_Fax_Nbr>248-553-8970</tns:Agency_Fax_Nbr>
+		<tns:Agency_Email>N/A</tns:Agency_Email>
+		<tns:Agency_Faith_Based_Ind>N</tns:Agency_Faith_Based_Ind>
+		<tns:Agency_Colonias_Ind>N</tns:Agency_Colonias_Ind>
+		<tns:Agency_Migrfarm_Worker_Ind>N</tns:Agency_Migrfarm_Worker_Ind>
+		<tns:Agency_Counseling_Budget_Amount>0.00</tns:Agency_Counseling_Budget_Amount>
+		<tns:Agency_Counseling_Methods>
+			<tns:Counseling_Method>1</tns:Counseling_Method>
+			<tns:Counseling_Method>2</tns:Counseling_Method>
+		</tns:Agency_Counseling_Methods>
+		<tns:Agency_Languages>
+			<tns:Language>19</tns:Language>
+			<tns:Language>20</tns:Language>
+		</tns:Agency_Languages>
+	</tns:AgencyProfileData>
+	<tns:Agency_Contacts>
+		<tns:Agency_Contact>
+			<tns:Contact_Type>11</tns:Contact_Type>
+			<tns:Contact_Fname>Setina</tns:Contact_Fname>
+			<tns:Contact_Lname>Briggs</tns:Contact_Lname>
+			<tns:Contact_Title>1</tns:Contact_Title>
+			<tns:Contact_Address1>38505 Country Club Dr</tns:Contact_Address1>
+			<tns:Contact_Address2>Suite 210</tns:Contact_Address2>
+			<tns:Contact_City>Farmington Hills</tns:Contact_City>
+			<tns:Contact_State>28</tns:Contact_State>
+			<tns:Contact_Zip>48331</tns:Contact_Zip>
+			<tns:Contact_Phone_Nbr>248-553-5400</tns:Contact_Phone_Nbr>
+			<tns:Contact_Ext_Nbr>2463</tns:Contact_Ext_Nbr>
+			<tns:Contact_Fax_Nbr>248-553-8970</tns:Contact_Fax_Nbr>
+			<tns:Contact_Email>sbriggs@greenpath.com</tns:Contact_Email>
+		</tns:Agency_Contact>
+		<tns:Agency_Contact>
+			<tns:Contact_Type>2</tns:Contact_Type>
+			<tns:Contact_Fname>Setina</tns:Contact_Fname>
+			<tns:Contact_Lname>Briggs</tns:Contact_Lname>
+			<tns:Contact_Title>1</tns:Contact_Title>
+			<tns:Contact_Address1>38505 Country Club Dr</tns:Contact_Address1>
+			<tns:Contact_Address2>Suite 210</tns:Contact_Address2>
+			<tns:Contact_City>Farmington Hills</tns:Contact_City>
+			<tns:Contact_State>28</tns:Contact_State>
+			<tns:Contact_Zip>48331</tns:Contact_Zip>
+			<tns:Contact_Phone_Nbr>248-553-5400</tns:Contact_Phone_Nbr>
+			<tns:Contact_Ext_Nbr>2463</tns:Contact_Ext_Nbr>
+			<tns:Contact_Fax_Nbr>248-553-8970</tns:Contact_Fax_Nbr>
+			<tns:Contact_Email>sbriggs@greenpath.com</tns:Contact_Email>
+		</tns:Agency_Contact>
+		<tns:Agency_Contact>
+			<tns:Contact_Type>3</tns:Contact_Type>
+			<tns:Contact_Fname>Setina</tns:Contact_Fname>
+			<tns:Contact_Lname>Briggs</tns:Contact_Lname>
+			<tns:Contact_Title>1</tns:Contact_Title>
+			<tns:Contact_Address1>38505 Country Club Dr</tns:Contact_Address1>
+			<tns:Contact_Address2>Suite 210</tns:Contact_Address2>
+			<tns:Contact_City>Farmington Hills</tns:Contact_City>
+			<tns:Contact_State>28</tns:Contact_State>
+			<tns:Contact_Zip>48331</tns:Contact_Zip>
+			<tns:Contact_Phone_Nbr>248-553-5400</tns:Contact_Phone_Nbr>
+			<tns:Contact_Ext_Nbr>2463</tns:Contact_Ext_Nbr>
+			<tns:Contact_Fax_Nbr>248-553-8970</tns:Contact_Fax_Nbr>
+			<tns:Contact_Email>sbriggs@greenpath.com</tns:Contact_Email>
+		</tns:Agency_Contact>
+	</tns:Agency_Contacts>
+</tns:SubmissionData>

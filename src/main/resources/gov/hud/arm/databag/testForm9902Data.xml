@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tns:SubmissionData xsi:schemaLocation='http://gov.hud.arm/form_9902_databag_5_0 form_9902_databag_5_0.xsd' xmlns:tns='http://gov.hud.arm/form_9902_databag_5_0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+	<tns:Form_9902>
+		<tns:Report_Period_Id>2</tns:Report_Period_Id>
+		<tns:Ethnicity_Households_Counseling_Hispanic activity_type_id="4">123456789012345</tns:Ethnicity_Households_Counseling_Hispanic>
+		<tns:Ethnicity_Households_Counseling_Non_Hispanic activity_type_id="4">123456789012345</tns:Ethnicity_Households_Counseling_Non_Hispanic>
+		<tns:Ethnicity_Households_Counseling_No_Response activity_type_id="4">123456789012345</tns:Ethnicity_Households_Counseling_No_Response>
+		<tns:Section_3_Total activity_type_id="4">123456789012345</tns:Section_3_Total>
+		<tns:Race_Households_Counseling_American_Indian activity_type_id="4">123456789012345</tns:Race_Households_Counseling_American_Indian>
+		<tns:Race_Households_Counseling_Asian activity_type_id="4">123456789012345</tns:Race_Households_Counseling_Asian>
+		<tns:Race_Households_Counseling_Black_African_American activity_type_id="4">123456789012345</tns:Race_Households_Counseling_Black_African_American>
+		<tns:Race_Households_Counseling_Pacific_Islanders activity_type_id="4">123456789012345</tns:Race_Households_Counseling_Pacific_Islanders>
+		<tns:Race_Households_Counseling_White activity_type_id="4">123456789012345</tns:Race_Households_Counseling_White>
+		<tns:MultiRace_Households_Counseling_AMINDWHT activity_type_id="4">123456789012345</tns:MultiRace_Households_Counseling_AMINDWHT>
+		<tns:MultiRace_Households_Counseling_ASIANWHT activity_type_id="4">123456789012345</tns:MultiRace_Households_Counseling_ASIANWHT>
+		<tns:MultiRace_Households_Counseling_BLKWHT activity_type_id="4">123456789012345</tns:MultiRace_Households_Counseling_BLKWHT>
+		<tns:MultiRace_Households_Counseling_AMRCINDBLK activity_type_id="4">123456789012345</tns:MultiRace_Households_Counseling_AMRCINDBLK>
+		<tns:MultiRace_Households_Counseling_OtherMLTRC activity_type_id="4">123456789012345</tns:MultiRace_Households_Counseling_OtherMLTRC>
+		<tns:MultiRace_Households_Counseling_No_Response activity_type_id="4">123456789012345</tns:MultiRace_Households_Counseling_No_Response>
+		<tns:Section_4_Total activity_type_id="4">123456789012345</tns:Section_4_Total>
+		<tns:Less30_AMI_Level activity_type_id="4">123456789012345</tns:Less30_AMI_Level>
+		<tns:a30_49_AMI_Level activity_type_id="4">123456789012345</tns:a30_49_AMI_Level>
+		<tns:a50_79_AMI_Level activity_type_id="4">123456789012345</tns:a50_79_AMI_Level>
+		<tns:a80_100_AMI_Level activity_type_id="4">123456789012345</tns:a80_100_AMI_Level>
+		<tns:Greater100_AMI_Level activity_type_id="4">123456789012345</tns:Greater100_AMI_Level>
+		<tns:AMI_No_Response activity_type_id="4">123456789012345</tns:AMI_No_Response>
+		<tns:Section_5_Total activity_type_id="4">123456789012345</tns:Section_5_Total>
+		<tns:Household_Lives_In_Rural_Area activity_type_id="4">123456789012345</tns:Household_Lives_In_Rural_Area>
+		<tns:Household_Does_Not_Live_In_Rural_Area activity_type_id="4">123456789012345</tns:Household_Does_Not_Live_In_Rural_Area>
+		<tns:Rural_Area_No_Response activity_type_id="4">123456789012345</tns:Rural_Area_No_Response>
+		<tns:Section_6_Total activity_type_id="4">123456789012345</tns:Section_6_Total>
+		<tns:Household_Is_Limited_English_Proficient activity_type_id="4">123456789012345</tns:Household_Is_Limited_English_Proficient>
+		<tns:Household_Is_Not_Limited_English_Proficient activity_type_id="4">123456789012345</tns:Household_Is_Not_Limited_English_Proficient>
+		<tns:Limited_English_Proficient_No_Response activity_type_id="4">123456789012345</tns:Limited_English_Proficient_No_Response>
+		<tns:Section_7_Total activity_type_id="4">123456789012345</tns:Section_7_Total>
+		<tns:Group_Compl_Fin_Lit_Workshop activity_type_id="4">123456789012345</tns:Group_Compl_Fin_Lit_Workshop>
+		<tns:Group_Compl_Pred_Lend_Workshop activity_type_id="4">123456789012345</tns:Group_Compl_Pred_Lend_Workshop>
+		<tns:Group_Compl_Fair_Housing_Workshop activity_type_id="4">123456789012345</tns:Group_Compl_Fair_Housing_Workshop>
+		<tns:Group_Compl_Homeless_Prev_Workshop activity_type_id="4">123456789012345</tns:Group_Compl_Homeless_Prev_Workshop>
+		<tns:Group_Compl_Rental_Workshop activity_type_id="4">123456789012345</tns:Group_Compl_Rental_Workshop>
+		<tns:Group_Compl_PrePurchase_HomeBuyer_Workshop activity_type_id="4">123456789012345</tns:Group_Compl_PrePurchase_HomeBuyer_Workshop>
+		<tns:Group_Compl_NonDelinqency_PostPurchase_Workshop activity_type_id="4">123456789012345</tns:Group_Compl_NonDelinqency_PostPurchase_Workshop>
+		<tns:Group_Compl_Resolv_Prevent_Mortg_Delinq_Workshop activity_type_id="4">123456789012345</tns:Group_Compl_Resolv_Prevent_Mortg_Delinq_Workshop>
+		<tns:Group_Compl_Other_Workshop activity_type_id="4">123456789012345</tns:Group_Compl_Other_Workshop>
+		<tns:Section_8_Total activity_type_id="4">123456789012345</tns:Section_8_Total>
+		<tns:One_Homeless_Assistance_Counseling activity_type_id="4">123456789012345</tns:One_Homeless_Assistance_Counseling>
+		<tns:One_Rental_Topics_Counseling activity_type_id="4">123456789012345</tns:One_Rental_Topics_Counseling>
+		<tns:One_PrePurchase_HomeBuying_Counseling activity_type_id="4">123456789012345</tns:One_PrePurchase_HomeBuying_Counseling>
+		<tns:One_Home_Maintenance_Fin_Management_Counseling activity_type_id="4">123456789012345</tns:One_Home_Maintenance_Fin_Management_Counseling>
+		<tns:One_Reverse_Mortgage_Counseling activity_type_id="4">123456789012345</tns:One_Reverse_Mortgage_Counseling>
+		<tns:One_Resolv_Prevent_Mortg_Delinq_Counseling activity_type_id="4">123456789012345</tns:One_Resolv_Prevent_Mortg_Delinq_Counseling>
+		<tns:Section_9_Total activity_type_id="4">123456789012345</tns:Section_9_Total>
+		<tns:Impact_One_On_One_And_Group activity_type_id="4">123456789012345</tns:Impact_One_On_One_And_Group>
+		<tns:Impact_Received_Info_Fair_Housing activity_type_id="4">123456789012345</tns:Impact_Received_Info_Fair_Housing>
+		<tns:Impact_Developed_Sustainable_Budget activity_type_id="4">123456789012345</tns:Impact_Developed_Sustainable_Budget>
+		<tns:Impact_Improved_Financial_Capacity activity_type_id="4">123456789012345</tns:Impact_Improved_Financial_Capacity>
+		<tns:Impact_Gained_Access_Resources_Improve_Housing activity_type_id="4">123456789012345</tns:Impact_Gained_Access_Resources_Improve_Housing>
+		<tns:Impact_Gained_Access_NonHousing_Resources activity_type_id="4">123456789012345</tns:Impact_Gained_Access_NonHousing_Resources>
+		<tns:Impact_Homeless_Obtained_Housing activity_type_id="4">123456789012345</tns:Impact_Homeless_Obtained_Housing>
+		<tns:Impact_Received_Rental_Counseling_Avoided_Eviction activity_type_id="4">123456789012345</tns:Impact_Received_Rental_Counseling_Avoided_Eviction>
+		<tns:Impact_Received_Rental_Counseling_Improved_Living_Conditions activity_type_id="4">123456789012345</tns:Impact_Received_Rental_Counseling_Improved_Living_Conditions>
+		<tns:Impact_Received_PrePurchase_Counseling_Purchased_Housing activity_type_id="4">123456789012345</tns:Impact_Received_PrePurchase_Counseling_Purchased_Housing>
+		<tns:Impact_Received_Reverse_Mortgage_Counseling_Obtained_HECM activity_type_id="4">123456789012345</tns:Impact_Received_Reverse_Mortgage_Counseling_Obtained_HECM>
+		<tns:Impact_Received_NonDelinquency_PostPurchase_Counseling_Improve_Conditions_Affordability activity_type_id="4">123456789012345</tns:Impact_Received_NonDelinquency_PostPurchase_Counseling_Improve_Conditions_Affordability>
+		<tns:Impact_Prevented_Resolved_Mortgage_Default activity_type_id="4">123456789012345</tns:Impact_Prevented_Resolved_Mortgage_Default>
+		<tns:Section_10_Total activity_type_id="4">123456789012345</tns:Section_10_Total>
+	</tns:Form_9902>
+		<tns:Group_Sessions>
+		<tns:Group_Session>
+			<tns:Group_Session_Id>123456879</tns:Group_Session_Id>
+			<tns:Group_Session_Counselor_Id>1234567891</tns:Group_Session_Counselor_Id>
+			<tns:Group_Session_Title>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</tns:Group_Session_Title>
+			<tns:Group_Session_Date>08-13-1967</tns:Group_Session_Date>
+			<tns:Group_Session_Duration>1234</tns:Group_Session_Duration>
+			<tns:Group_Session_Type>18</tns:Group_Session_Type>
+			<tns:Group_Session_Attribute_HUD_Grant>6</tns:Group_Session_Attribute_HUD_Grant>
+			<tns:Group_Session_Activity_Type>4</tns:Group_Session_Activity_Type>
+			<tns:Group_Session_Attendees>
+				<tns:Group_Session_Attendee>
+					<tns:Attendee_Id>1234567891</tns:Attendee_Id>
+					<tns:Attendee_Fee_Amount>25</tns:Attendee_Fee_Amount>
+					<tns:Attendee_Referred_By>12</tns:Attendee_Referred_By>
+					<tns:Attendee_FirstTime_Home_Buyer>N</tns:Attendee_FirstTime_Home_Buyer>
+					<tns:Attendee_Income_Level>8</tns:Attendee_Income_Level>					
+					<tns:Attendee_Address_1>123 Some Street</tns:Attendee_Address_1>
+					<tns:Attendee_City>SomeCity</tns:Attendee_City>
+					<tns:Attendee_State>12</tns:Attendee_State>
+					<tns:Attendee_Zip_Code>20000</tns:Attendee_Zip_Code>
+					<tns:Attendee_Rural_Area>2</tns:Attendee_Rural_Area>
+					<tns:Attendee_Limited_English_Proficiency>2</tns:Attendee_Limited_English_Proficiency>
+				</tns:Group_Session_Attendee>
+				<tns:Group_Session_Attendee>
+					<tns:Attendee_Id>1234567892</tns:Attendee_Id>
+					<tns:Attendee_Fee_Amount>1</tns:Attendee_Fee_Amount>
+					<tns:Attendee_Referred_By>12</tns:Attendee_Referred_By>
+					<tns:Attendee_FirstTime_Home_Buyer>N</tns:Attendee_FirstTime_Home_Buyer>
+					<tns:Attendee_Income_Level>9</tns:Attendee_Income_Level>					
+				</tns:Group_Session_Attendee>
+			</tns:Group_Session_Attendees>
+		</tns:Group_Session>
+		<tns:Group_Session>
+			<tns:Group_Session_Id>123456878</tns:Group_Session_Id>
+			<tns:Group_Session_Counselor_Id>1234567891</tns:Group_Session_Counselor_Id>
+			<tns:Group_Session_Title>Session Title Session Title Session Title Session Title Session Title</tns:Group_Session_Title>
+			<tns:Group_Session_Date>08-13-1967</tns:Group_Session_Date>
+			<tns:Group_Session_Duration>1234</tns:Group_Session_Duration>
+			<tns:Group_Session_Type>10</tns:Group_Session_Type>
+			<tns:Group_Session_Attribute_HUD_Grant>7</tns:Group_Session_Attribute_HUD_Grant>
+			<tns:Group_Session_Activity_Type>4</tns:Group_Session_Activity_Type>
+			<tns:Group_Session_Attendees>
+				<tns:Group_Session_Attendee>
+					<tns:Attendee_Id>1234567891</tns:Attendee_Id>
+					<tns:Attendee_Fee_Amount>25</tns:Attendee_Fee_Amount>
+					<tns:Attendee_Referred_By>11</tns:Attendee_Referred_By>
+					<tns:Attendee_FirstTime_Home_Buyer>N</tns:Attendee_FirstTime_Home_Buyer>
+					<tns:Attendee_Address_1>123 Some Street</tns:Attendee_Address_1>
+					<tns:Attendee_City>SomeCity</tns:Attendee_City>
+					<tns:Attendee_State>12</tns:Attendee_State>
+					<tns:Attendee_Zip_Code>20000</tns:Attendee_Zip_Code>
+					<tns:Attendee_Rural_Area>1</tns:Attendee_Rural_Area>
+					<tns:Attendee_Limited_English_Proficiency>3</tns:Attendee_Limited_English_Proficiency>
+				</tns:Group_Session_Attendee>
+				<tns:Group_Session_Attendee>
+					<tns:Attendee_Id>1234567892</tns:Attendee_Id>
+					<tns:Attendee_Fee_Amount>501</tns:Attendee_Fee_Amount>
+					<tns:Attendee_Referred_By>12</tns:Attendee_Referred_By>
+					<tns:Attendee_FirstTime_Home_Buyer>N</tns:Attendee_FirstTime_Home_Buyer>
+					<tns:Attendee_Income_Level>11</tns:Attendee_Income_Level>					
+				</tns:Group_Session_Attendee>
+			</tns:Group_Session_Attendees>
+		</tns:Group_Session>
+	</tns:Group_Sessions>
+	<tns:Attendees>
+		<tns:Attendee>
+			<tns:Attendee_Id>1234567891</tns:Attendee_Id>
+			<tns:Attendee_Fname>a</tns:Attendee_Fname>
+			<tns:Attendee_Lname>a</tns:Attendee_Lname>
+			<tns:Attendee_Mname>a</tns:Attendee_Mname>
+			<tns:Attendee_Address_1>a</tns:Attendee_Address_1>
+			<tns:Attendee_Address_2>a</tns:Attendee_Address_2>
+			<tns:Attendee_City>a</tns:Attendee_City>
+			<tns:Attendee_State>12</tns:Attendee_State>
+			<tns:Attendee_Zip_Code>00000</tns:Attendee_Zip_Code>
+			<tns:Attendee_Rural_Area>2</tns:Attendee_Rural_Area>
+			<tns:Attendee_Limited_English_Proficiency>2</tns:Attendee_Limited_English_Proficiency>
+			<tns:Attendee_Race_ID>12</tns:Attendee_Race_ID>
+			<tns:Attendee_Ethnicity_ID>3</tns:Attendee_Ethnicity_ID>
+			<tns:Attendee_Income_Level>10</tns:Attendee_Income_Level>
+		</tns:Attendee>
+		<tns:Attendee>
+			<tns:Attendee_Id>1234567892</tns:Attendee_Id>
+			<tns:Attendee_Fname>a</tns:Attendee_Fname>
+			<tns:Attendee_Lname>a</tns:Attendee_Lname>
+			<tns:Attendee_Mname>a</tns:Attendee_Mname>
+			<tns:Attendee_Address_1>a</tns:Attendee_Address_1>
+			<tns:Attendee_Address_2>a</tns:Attendee_Address_2>
+			<tns:Attendee_City>a</tns:Attendee_City>
+			<tns:Attendee_State>12</tns:Attendee_State>
+			<tns:Attendee_Zip_Code>00000</tns:Attendee_Zip_Code>
+			<tns:Attendee_Rural_Area>3</tns:Attendee_Rural_Area>
+			<tns:Attendee_Limited_English_Proficiency>1</tns:Attendee_Limited_English_Proficiency>
+			<tns:Attendee_Race_ID>12</tns:Attendee_Race_ID>
+			<tns:Attendee_Ethnicity_ID>1</tns:Attendee_Ethnicity_ID>
+			<tns:Attendee_Income_Level>9</tns:Attendee_Income_Level>
+		</tns:Attendee>
+	</tns:Attendees>
+</tns:SubmissionData>

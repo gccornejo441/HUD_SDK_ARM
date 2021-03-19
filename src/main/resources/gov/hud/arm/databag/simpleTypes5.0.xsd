@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://gov.hud.arm/arm_databag" targetNamespace="http://gov.hud.arm/arm_databag" xmlns:tns="http://gov.hud.arm/arm_databag" elementFormDefault="qualified">
+  <xs:simpleType name="groupSessionId">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="36" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="yesOrNo">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[YN]" />
+      <xs:maxLength value="1" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="agencyName">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="120" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="employeeId">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{2}-[0-9]{7}"></xs:pattern>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="gender">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="M" />
+      <xs:enumeration value="F" />
+      <xs:enumeration value="O" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="maritalStatus">
+    <xs:restriction base="xs:int">
+      <xs:minInclusive value="1" />
+      <xs:maxInclusive value="7" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="incomeLevel">
+    <xs:restriction base="xs:int">
+      <xs:pattern value="(0)|([1-9][0-9]*)" />
+      <xs:minInclusive value="7" />
+      <xs:maxInclusive value="12" />
+    </xs:restriction>
+  </xs:simpleType> 
+  <xs:simpleType name="referredBy">
+    <xs:restriction base="xs:int">
+      <xs:pattern value="(0)|([1-9][0-9]*)" />
+      <xs:minInclusive value="2" />
+      <xs:maxInclusive value="9" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="race">
+    <xs:restriction base="xs:int">
+      <xs:pattern value="(0)|([1-9][0-9]*)" />
+      <xs:minInclusive value="1" />
+      <xs:maxInclusive value="12" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ethnicity">
+    <xs:restriction base="xs:int">
+      <xs:minInclusive value="1" />
+      <xs:maxInclusive value="4" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="financeType">
+    <xs:restriction base="xs:int">
+      <xs:pattern value="(0)|([1-9][0-9]*)" />
+      <xs:enumeration value="6" />
+      <xs:enumeration value="8" />
+      <xs:enumeration value="9" />
+      <xs:enumeration value="10" />
+      <xs:enumeration value="11" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="month">
+    <xs:restriction base="xs:int">
+      <xs:pattern value="(0)|([1-9][0-9]*)" />
+      <xs:minInclusive value="1" />
+      <xs:maxInclusive value="12" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="dunnBradstreetId">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{9}"></xs:pattern>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="addressLineLong">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="50" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="addressLineShort">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="40" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="city">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="50" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="state">
+    <xs:restriction base="xs:int">
+      <xs:pattern value="(0)|([1-9][0-9]*)" />
+      <xs:totalDigits value="2" />
+      <xs:minInclusive value="1" />
+      <xs:maxInclusive value="61" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="zip">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{5}(-[0-9]{4}){0,1}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="url">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="((N/A)|(n/a)|((http)|(https))[:][/][/][\S].*)" />
+      <xs:maxLength value="100" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="date">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="((0[1-9])|(10|11|12))-(([0][1-9])|([1-2][0-9])|30|31)-((19[0-9]{2})|(20[0-9]{2}))" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="dateTime">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="((0[1-9])|(10|11|12))-(([0][1-9])|([1-2][0-9])|30|31)-((19[0-9]{2})|(20[0-9]{2})) ((0[0-9])|([1][0-9])|([2][0-3])):((0[0-9])|([1-5][0-9]))" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="interestRate">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{1,2}.[0-9]{1,3}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ssn">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{3}-[0-9]{2}-[0-9]{4}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ssnLast">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{4}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="phone">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{3}-[0-9]{3}-[0-9]{4}(x[0-9]{1,5}){0,1}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="phoneWithoutExtension">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{3}-[0-9]{3}-[0-9]{4}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="email">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="50" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="counselingBudgetAmount">
+    <xs:restriction base="xs:decimal">
+      <xs:totalDigits value="12" />
+      <xs:fractionDigits value="2" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="contactType">
+    <xs:restriction base="xs:long">
+      <xs:pattern value="(0)|([1-9][0-9]*)" />
+      <xs:enumeration value="2" />
+      <xs:enumeration value="3" />
+      <xs:enumeration value="11" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="educationLevel">
+    <xs:restriction base="xs:int">
+      <xs:pattern value="(0)|([1-9][0-9]*)" />
+      <xs:minInclusive value="1" />
+      <xs:maxInclusive value="8" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="counselingType">
+    <xs:restriction base="xs:int">
+      <xs:minInclusive value="2" />
+      <xs:maxInclusive value="7" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="counselingTermination">
+    <xs:restriction base="xs:int">
+      <xs:minInclusive value="1" />
+      <xs:maxInclusive value="7" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="mortgageType">
+    <xs:restriction base="xs:int">
+      <xs:pattern value="(0)|([1-9][0-9]*)" />
+      <xs:minInclusive value="1" />
+      <xs:maxInclusive value="13" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="hudGrantType">
+    <xs:restriction base="xs:int">
+      <xs:minInclusive value="1" />
+      <xs:maxInclusive value="7" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="refId">
+    <xs:restriction base="xs:long">
+      <xs:pattern value="(0)|([1-9][0-9]*)" />
+      <xs:totalDigits value="18" />
+      <xs:minInclusive value="0" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="shortRefId">
+    <xs:restriction base="xs:int">
+      <xs:pattern value="(0)|([1-9][0-9]*)" />
+      <xs:totalDigits value="2" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="name">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="50" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="phoneExtension">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]*" />
+      <xs:maxLength value="10" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="languageId">
+    <xs:restriction base="xs:int">
+      <xs:pattern value="(0)|([1-9][0-9]*)" />
+      <xs:totalDigits value="2" />
+      <xs:minInclusive value="2" />
+      <xs:maxInclusive value="28" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="trainingTitle">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="255" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="otherTrainingOrganization">
+    <xs:restriction base="xs:int">
+      <xs:minInclusive value="1" />
+      <xs:maxInclusive value="5" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="sponsorTrainingOrganization">
+    <xs:restriction base="xs:int">
+      <xs:minInclusive value="1" />
+      <xs:maxInclusive value="3" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="billingMethods">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="Fixed" />
+      <xs:pattern value="Hourly" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="sessionTitle">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="100" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="sessionDuration">
+    <xs:restriction base="xs:int">
+      <xs:pattern value="(0)|([1-9][0-9]*)" />
+      <xs:totalDigits value="4" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="numericFieldValue">
+    <xs:restriction base="xs:long">
+      <xs:pattern value="(0)|([1-9][0-9]*)" />
+      <xs:totalDigits value="15" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="hudAssistance">
+    <xs:restriction base="xs:int">
+      <xs:pattern value="(0)|([1-9][0-9]*)" />
+      <xs:minInclusive value="2" />
+      <xs:maxInclusive value="8" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="fieldValue">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="50" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="activityTypeId">
+    <xs:restriction base="xs:int">
+      <xs:pattern value="(0)|([1-9][0-9]*)" />
+      <xs:totalDigits value="3" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="fieldName">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="100" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="moneyField">
+    <xs:restriction base="xs:decimal">
+      <xs:totalDigits value="10" />
+      <xs:fractionDigits value="2" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="loanIndicator">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[FSN]" />
+      <xs:maxLength value="1" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="loanIntakeTypeId">
+    <xs:restriction base="xs:int">
+      <xs:pattern value="(0)|([1-9][0-9]*)" />
+      <xs:minInclusive value="1" />
+      <xs:maxInclusive value="10" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="limitedEngProfId">
+    <xs:restriction base="xs:int">
+      <xs:minInclusive value="1" />
+      <xs:maxInclusive value="3" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ruralAreaId">
+    <xs:restriction base="xs:int">
+      <xs:minInclusive value="1" />
+      <xs:maxInclusive value="3" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="impactId">
+    <xs:restriction base="xs:int">
+      <xs:pattern value="(0)|([1-9][0-9]*)" />
+      <xs:minInclusive value="1" />
+      <xs:maxInclusive value="13" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

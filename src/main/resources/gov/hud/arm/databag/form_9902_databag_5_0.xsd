@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://gov.hud.arm/form_9902_databag_5_0" targetNamespace="http://gov.hud.arm/form_9902_databag_5_0"
+	xmlns:st="http://gov.hud.arm/arm_databag" elementFormDefault="qualified">
+	<xs:import schemaLocation="simpleTypes5.0.xsd" namespace="http://gov.hud.arm/arm_databag" />
+	<xs:element name="SubmissionData">
+		<xs:complexType>
+			<xs:all>
+				<xs:element name="Group_Sessions" type="Group_Sessions" minOccurs="0" />
+				<xs:element name="Form_9902" type="Form_9902" minOccurs="0" maxOccurs="1" />
+				<xs:element name="Attendees" type="Attendees" minOccurs="0" />
+			</xs:all>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="Form_9902">
+		<xs:sequence>
+			<xs:element name="Report_Period_Id" type="st:refId" />
+			<xs:element name="Ethnicity_Households_Counseling_Hispanic" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Ethnicity_Households_Counseling_Non_Hispanic" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Ethnicity_Households_Counseling_No_Response" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Section_3_Total" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Race_Households_Counseling_American_Indian" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Race_Households_Counseling_Asian" type="form9902Field" maxOccurs="unbounded" />
+			<xs:element name="Race_Households_Counseling_Black_African_American" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Race_Households_Counseling_Pacific_Islanders" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Race_Households_Counseling_White" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="MultiRace_Households_Counseling_AMINDWHT" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="MultiRace_Households_Counseling_ASIANWHT" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="MultiRace_Households_Counseling_BLKWHT" type="form9902Field" maxOccurs="unbounded"  />
+			<xs:element name="MultiRace_Households_Counseling_AMRCINDBLK" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="MultiRace_Households_Counseling_OtherMLTRC" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="MultiRace_Households_Counseling_No_Response" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Section_4_Total" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Less30_AMI_Level" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="a30_49_AMI_Level" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="a50_79_AMI_Level" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="a80_100_AMI_Level" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Greater100_AMI_Level" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="AMI_No_Response" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Section_5_Total" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Household_Lives_In_Rural_Area" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Household_Does_Not_Live_In_Rural_Area" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Rural_Area_No_Response" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Section_6_Total" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Household_Is_Limited_English_Proficient" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Household_Is_Not_Limited_English_Proficient" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Limited_English_Proficient_No_Response" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Section_7_Total" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Group_Compl_Fin_Lit_Workshop" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Group_Compl_Pred_Lend_Workshop" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Group_Compl_Fair_Housing_Workshop" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Group_Compl_Homeless_Prev_Workshop" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Group_Compl_Rental_Workshop" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Group_Compl_PrePurchase_HomeBuyer_Workshop" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Group_Compl_NonDelinqency_PostPurchase_Workshop" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Group_Compl_Resolv_Prevent_Mortg_Delinq_Workshop" type="form9902Field" maxOccurs="unbounded"  />
+			<xs:element name="Group_Compl_Other_Workshop" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Section_8_Total" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="One_Homeless_Assistance_Counseling" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="One_Rental_Topics_Counseling" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="One_PrePurchase_HomeBuying_Counseling" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="One_Home_Maintenance_Fin_Management_Counseling" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="One_Reverse_Mortgage_Counseling" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="One_Resolv_Prevent_Mortg_Delinq_Counseling" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Section_9_Total" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Impact_One_On_One_And_Group" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Impact_Received_Info_Fair_Housing" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Impact_Developed_Sustainable_Budget" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Impact_Improved_Financial_Capacity" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Impact_Gained_Access_Resources_Improve_Housing" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Impact_Gained_Access_NonHousing_Resources" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Impact_Homeless_Obtained_Housing" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Impact_Received_Rental_Counseling_Avoided_Eviction" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Impact_Received_Rental_Counseling_Improved_Living_Conditions" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Impact_Received_PrePurchase_Counseling_Purchased_Housing" type="form9902Field" maxOccurs="unbounded"  />
+			<xs:element name="Impact_Received_Reverse_Mortgage_Counseling_Obtained_HECM" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Impact_Received_NonDelinquency_PostPurchase_Counseling_Improve_Conditions_Affordability" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Impact_Prevented_Resolved_Mortgage_Default" type="form9902Field"  maxOccurs="unbounded" />
+			<xs:element name="Section_10_Total" type="form9902Field"  maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="form9902Field">
+		<xs:simpleContent>
+			<xs:extension base="st:numericFieldValue">
+				<xs:attribute name="activity_type_id" type="st:activityTypeId" use="required" />
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="Group_Sessions">
+		<xs:sequence>
+			<xs:element name="Group_Session" type="Group_Session" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Group_Session">
+		<xs:all>
+			<xs:element name="Group_Session_Id" type="st:groupSessionId" />
+			<xs:element name="Group_Session_Counselor_Id" type="st:refId" />
+			<xs:element name="Group_Session_Title" type="st:sessionTitle" />
+			<xs:element name="Group_Session_Date" type="st:date" />
+			<xs:element name="Group_Session_Duration" type="st:sessionDuration" />
+			<xs:element name="Group_Session_Type" type="st:shortRefId" />
+			<xs:element name="Group_Session_Attribute_HUD_Grant" type="st:shortRefId" />
+			<xs:element name="Group_Session_Activity_Type" type="st:activityTypeId" />
+			<xs:element name="Group_Session_Attendees" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Group_Session_Attendee" type="Group_Session_Attendee" minOccurs="1" maxOccurs="unbounded" />
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:all>
+	</xs:complexType>
+	<xs:complexType name="Group_Session_Attendee">
+		<xs:all>
+	      	<xs:element name="Attendee_Id" type="st:refId"/>
+			<xs:element name="Attendee_Fee_Amount" type="xs:nonNegativeInteger" />
+			<xs:element name="Attendee_Referred_By" type="st:shortRefId" />
+			<xs:element name="Attendee_FirstTime_Home_Buyer" type="st:yesOrNo" />
+			<xs:element name="Attendee_Income_Level" type="st:incomeLevel" minOccurs="0"/>
+			<xs:element name="Attendee_Address_1" type="st:addressLineLong" minOccurs="0"/>
+			<xs:element name="Attendee_Address_2" type="st:addressLineLong" minOccurs="0" />
+			<xs:element name="Attendee_City" type="st:city" minOccurs="0"/>
+			<xs:element name="Attendee_State" type="st:state" minOccurs="0"/>
+			<xs:element name="Attendee_Zip_Code" type="st:zip" minOccurs="0"/>
+			<xs:element name="Attendee_Rural_Area" type="st:ruralAreaId" minOccurs="0" />
+			<xs:element name="Attendee_Limited_English_Proficiency" type="st:limitedEngProfId" minOccurs="0" />
+		</xs:all>
+	</xs:complexType>
+	<xs:complexType name="Attendees">
+		<xs:sequence>
+			<xs:element name="Attendee" type="Attendee" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Attendee">
+		<xs:all>
+			<xs:element name="Attendee_Id" type="st:refId" />
+			<xs:element name="Attendee_Fname" type="st:name" minOccurs="0" />
+			<xs:element name="Attendee_Lname" type="st:name" minOccurs="0" />
+			<xs:element name="Attendee_Mname" type="st:name" minOccurs="0" />
+			<xs:element name="Attendee_Address_1" type="st:addressLineLong" minOccurs="0" />
+			<xs:element name="Attendee_Address_2" type="st:addressLineLong" minOccurs="0" />
+			<xs:element name="Attendee_City" type="st:city" />
+			<xs:element name="Attendee_State" type="st:state" />
+			<xs:element name="Attendee_Zip_Code" type="st:zip" />
+			<xs:element name="Attendee_Rural_Area" type="st:ruralAreaId" />
+			<xs:element name="Attendee_Limited_English_Proficiency" type="st:limitedEngProfId" />
+			<xs:element name="Attendee_Race_ID" type="st:race" />
+			<xs:element name="Attendee_Ethnicity_ID" type="st:ethnicity" />
+			<xs:element name="Attendee_Income_Level" type="st:incomeLevel" />
+		</xs:all>
+	</xs:complexType>
+</xs:schema>
